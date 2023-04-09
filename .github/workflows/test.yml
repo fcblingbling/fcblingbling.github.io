@@ -15,5 +15,11 @@ jobs:
           hugo-version: "0.111.3"
           extended: true
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18.x"
+      - name: generate files
+        run: node ./tools/index.js
+
       - name: Build
         run: hugo --minify
