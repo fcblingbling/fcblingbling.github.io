@@ -24,13 +24,13 @@ const parse = async () => {
   let i = 1;
   let count = 0;
   let text = ''
-  while (count < 3) {
+  while (count < 3 && i < lines.length) {
     const line = lines[i++]
     if (line.includes(',')) {
       const words = line.split(',')
 
       const date = new Date(`${words[1]}T${words[2]}:00.000Z`)
-      if (date) {
+      if (date.getDate() > 0) {
         count++
         const fmtDate = `${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.getUTCDate()}.${date.getUTCMonth() + 1}.${date.getUTCFullYear()} klo ${date.getUTCHours()}:${zeroPad(date.getUTCMinutes(), 2)}`
         const title = words[0].replace('FC Bling Bling: ', '')
