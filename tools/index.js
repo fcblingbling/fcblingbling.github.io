@@ -28,14 +28,16 @@ const parse = async () => {
     const line = lines[i++]
     if (line.includes(',')) {
       const words = line.split(',')
-      count++
 
       const date = new Date(`${words[1]}T${words[2]}:00.000Z`)
-      const fmtDate = `${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.getUTCDate()}.${date.getUTCMonth() + 1}.${date.getUTCFullYear()} klo ${date.getUTCHours()}:${zeroPad(date.getUTCMinutes(), 2)}`
-      const title = words[0].replace('FC Bling Bling: ', '')
-      const location = words[3].replace('"', '')
+      if (date) {
+        count++
+        const fmtDate = `${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.getUTCDate()}.${date.getUTCMonth() + 1}.${date.getUTCFullYear()} klo ${date.getUTCHours()}:${zeroPad(date.getUTCMinutes(), 2)}`
+        const title = words[0].replace('FC Bling Bling: ', '')
+        const location = words[3].replace('"', '')
 
-      text += `* ${fmtDate} *${location}*: **${title}**\n`
+        text += `* ${fmtDate} *${location}*: **${title}**\n`
+      }
     }
   }
 
