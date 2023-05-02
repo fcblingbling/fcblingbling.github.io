@@ -34,9 +34,9 @@ const parse = async () => {
         count++
         const fmtDate = `${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.getUTCDate()}.${date.getUTCMonth() + 1}.${date.getUTCFullYear()} klo ${date.getUTCHours()}:${zeroPad(date.getUTCMinutes(), 2)}`
         const title = words[0].replace('FC Bling Bling: ', '')
-        const location = words[3].replace('"', '')
+        const location = words[3].replaceAll('"', '')
 
-        text += `* ${fmtDate} *${location}*: **${title}**\n`
+        text += `* ${fmtDate}${location ? ` *${location}*` : ''}: **${title}**\n`
       }
     }
   }
