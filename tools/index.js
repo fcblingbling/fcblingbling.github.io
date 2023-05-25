@@ -53,17 +53,19 @@ const parse = async () => {
 const addMatches = async () => {
   const matches = await fetchMatches()
 
-  let text = `## Kuntopallo\n\n`
+  let text = `## Kuntopallo\n\n### [Taulukko](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/group/3/)`
 
-  const printMatch = match => 
-    `* ${new Date(match.date).toLocaleDateString("fi")} ${match.venue_location_name}: ${match.team_A_name} - ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
-  const printRow = team => `|${team.current_standing} | ${team.team_name} | ${team.matches_played} | ${team.matches_won} | ${team.matches_tied} | ${team.matches_lost} | ${team.goals_for}–${team.goals_against} | ${team.points} |`
-  const printEmphasizedRow = team => `| **${team.current_standing}** | **${team.team_name}** | **${team.matches_played}** | **${team.matches_won}** | **${team.matches_tied}** | **${team.matches_lost}** | **${team.goals_for}–${team.goals_against}** | **${team.points}** |`
+  const printMatch = match => {
+    const date = new Date(match.date)
+    return `* *${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.toLocaleDateString('fi-FI')}*: ${match.team_A_name} – ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
+  }
+  const printRow = team => `|${team.current_standing} | ${team.team_name} | ${team.points} |`
+  const printEmphasizedRow = team => `| **${team.current_standing}** | **${team.team_name}** | **${team.points}** |`
   
-  text += `\n| # | Joukkue | P | V | T | H | Maalit | Pisteet |\n`
-  text += `|---|---------|---|---|---|---|---|---|\n`
+  text += `\n| # | Joukkue | Pisteet |\n`
+  text += `|---|---------| ---|\n`
   text += matches.status.map(team => team.team_name === 'FC Bling Bling' ? printEmphasizedRow(team) : printRow(team)).join('\n')
-  text += '\n\n### Pelikalenteri\n\n'
+  text += '\n\n### Pelit\n\n'
   text += matches.matches.map(printMatch).join('\n')
   return text
 }
