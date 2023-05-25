@@ -11,25 +11,25 @@
 
  ## Kuntopallo
 
-
-| # | Joukkue | P | V | T | H | Maalit | Pisteet |
-|---|---------|---|---|---|---|---|---|
-|1 | TKT/Tiikerit | 1 | 1 | 0 | 0 | 8–0 | 3 |
-| **2** | **FC Bling Bling** | **1** | **1** | **0** | **0** | **4–1** | **3** |
-|3 | Ipattaret | 1 | 1 | 0 | 0 | 2–1 | 3 |
-|4 | MIGFutis | 1 | 0 | 0 | 1 | 1–2 | 0 |
-|5 | YIlves/Feenix | 1 | 0 | 0 | 1 | 1–4 | 0 |
-|6 | FC Satakunnankatumus 10 | 1 | 0 | 0 | 1 | 0–8 | 0 |
+### [Taulukko](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/group/3/)
+| # | Joukkue | Pisteet |
+|---|---------| ---|
+|1 | TKT/Tiikerit | 3 |
+| **2** | **FC Bling Bling** | **3** |
+|3 | Ipattaret | 3 |
+|4 | MIGFutis | 0 |
+|5 | YIlves/Feenix | 0 |
+|6 | FC Satakunnankatumus 10 | 0 |
 
 ### Pelikalenteri
 
-* 11.5.2023 Kiovanpuisto: YIlves/Feenix - FC Bling Bling **1–4** 
-* 24.5.2023 Kiovanpuisto: FC Bling Bling - TKT/Tiikerit  
-* 6.6.2023 Kiovanpuisto: MIGFutis - FC Bling Bling  
-* 21.6.2023 Riihitie: FC Bling Bling - Ipattaret  
-* 5.7.2023 Kiovanpuisto: FC Satakunnankatumus 10 - FC Bling Bling  
-* 27.7.2023 Kiovanpuisto: FC Bling Bling - YIlves/Feenix  
-* 8.8.2023 Kiovanpuisto: TKT/Tiikerit - FC Bling Bling  
-* 23.8.2023 Kiovanpuisto: FC Bling Bling - MIGFutis  
-* 7.9.2023 Kiovanpuisto: Ipattaret - FC Bling Bling  
-* 20.9.2023 Kiovanpuisto: FC Bling Bling - FC Satakunnankatumus 10  
+* *to 11.5.2023*: YIlves/Feenix – FC Bling Bling **1–4** 
+* *ke 24.5.2023*: FC Bling Bling – TKT/Tiikerit  
+* *ti 6.6.2023*: MIGFutis – FC Bling Bling  
+* *ke 21.6.2023*: FC Bling Bling – Ipattaret  
+* *ke 5.7.2023*: FC Satakunnankatumus 10 – FC Bling Bling  
+* *to 27.7.2023*: FC Bling Bling – YIlves/Feenix  
+* *ti 8.8.2023*: TKT/Tiikerit – FC Bling Bling  
+* *ke 23.8.2023*: FC Bling Bling – MIGFutis  
+* *to 7.9.2023*: Ipattaret – FC Bling Bling  
+* *ke 20.9.2023*: FC Bling Bling – FC Satakunnankatumus 10  
