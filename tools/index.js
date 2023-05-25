@@ -1,6 +1,8 @@
 const fs = require("fs");
 const http = require("https");
 
+const fetchMatches = require('./fetch-matches')
+
 const fetchUrl = async (url, path) =>
   new Promise((resolve, reject) => {
     const fileStream = fs.createWriteStream(path);
@@ -41,10 +43,29 @@ const parse = async () => {
     }
   }
 
-  text = `![Logo](/img/avatar-icon.png)\n\n**Seuraavat tapahtumat:**\n\n${text}`
+  text = `![Logo](/img/avatar-icon.png)\n\n## Seuraavat tapahtumat\n\n${text}`
   text = `${text}\n\n  [Kaikki tapahtumat](https://fcblingbling.nimenhuuto.com/events)`
+  text = `${text}\n\n ${await addMatches()}`
 
   fs.writeFileSync('./content/_index.md', text)  
+}
+
+const addMatches = async () => {
+  const matches = await fetchMatches()
+
+  let text = `## Kuntopallo\n\n`
+
+  const printMatch = match => 
+    `* ${new Date(match.date).toLocaleDateString("fi")} ${match.venue_location_name}: ${match.team_A_name} - ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
+  const printRow = team => `|${team.current_standing} | ${team.team_name} | ${team.matches_played} | ${team.matches_won} | ${team.matches_tied} | ${team.matches_lost} | ${team.goals_for}–${team.goals_against} | ${team.points} |`
+  const printEmphasizedRow = team => `| **${team.current_standing}** | **${team.team_name}** | **${team.matches_played}** | **${team.matches_won}** | **${team.matches_tied}** | **${team.matches_lost}** | **${team.goals_for}–${team.goals_against}** | **${team.points}** |`
+  
+  text += `\n| # | Joukkue | P | V | T | H | Maalit | Pisteet |\n`
+  text += `|---|---------|---|---|---|---|---|---|\n`
+  text += matches.status.map(team => team.team_name === 'FC Bling Bling' ? printEmphasizedRow(team) : printRow(team)).join('\n')
+  text += '\n\n### Pelikalenteri\n\n'
+  text += matches.matches.map(printMatch).join('\n')
+  return text
 }
 
 parse()
