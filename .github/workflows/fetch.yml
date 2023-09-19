@@ -1,0 +1,38 @@
+name: fetch
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *" # Runs at 00:00
+jobs:
+  fetch-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PUSH_GITHUB_TOKEN }} # use token to trigger deployment
+      # TODO: move this logic to action
+      - run: |
+          file_path=$(date +'./data/fb/%Y/%m/%Y-%m.json')
+          prev_month=$(date --date='-1 month' +%m)
+          file_prev_path=$(date +'./data/fb/%Y/'$prev_month'/%Y-'$prev_month'.json')
+          file_item_count=$(jq length $file_path || echo "0")
+          file_prev_item_count=$(jq length $file_prev_path || echo "0")
+          echo "LAST_DATA_FILE=$file_path" >> $GITHUB_ENV
+          echo "LAST_FILE_COUNT=$file_item_count" >> $GITHUB_ENV
+          echo "LAST_PREV_DATA_FILE=$file_prev_path" >> $GITHUB_ENV
+          echo "LAST_PREV_FILE_COUNT=$file_prev_item_count" >> $GITHUB_ENV
+      - uses: lauravuo/fb-fetch-action@main
+        with:
+          start-year: 2014
+          page-id: ${{ secrets.FB_PAGE_ID }}
+          page-token: ${{ secrets.FB_PAGE_TOKEN }}
+
+      - run: |
+          file_item_count=$(jq length $LAST_DATA_FILE || echo "0")
+          file_prev_item_count=$(jq length $LAST_PREV_DATA_FILE || echo "0")
+          if [[ "$LAST_FILE_COUNT" -ne "$file_item_count" || "$LAST_PREV_FILE_COUNT" -ne "$file_prev_item_count" ]]; then
+            git config --global user.email "fb-bot"
+            git config --global user.name "fb-bot"
+            git add data
+            git diff-index --quiet HEAD || git commit -a -m "Add latest posts." && git push;
+          fi
