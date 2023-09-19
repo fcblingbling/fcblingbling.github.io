@@ -5,6 +5,8 @@ on:
     - cron: "0 0 * * *" # Runs at 00:00
 jobs:
   fetch-posts:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
