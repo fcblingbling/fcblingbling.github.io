@@ -14,9 +14,9 @@
 - id: readMore
   translation: "Read More"
 - id: olderPosts
-  translation: "Older Posts"
+  translation: ""
 - id: newerPosts
-  translation: "Newer Posts"
+  translation: ""
 - id: previousPost
   translation: "Previous Post"
 - id: nextPost
@@ -33,7 +33,7 @@
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: ''
+  translation: 'Tampere, Finland'
 
 # Navigation
 - id: toggleNavigation
