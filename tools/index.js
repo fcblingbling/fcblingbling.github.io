@@ -77,6 +77,7 @@ comments: false
   `
 
   text = `${text}\n\n ${await addMatches()}`
+  fs.mkdirSync('./content/series')
   fs.writeFileSync('./content/series/index.md', text)  
 
 }
