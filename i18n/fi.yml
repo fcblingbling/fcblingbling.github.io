@@ -14,9 +14,9 @@
 - id: readMore
   translation: "Read More"
 - id: olderPosts
-  translation: ""
+  translation: "Vanhemmat"
 - id: newerPosts
-  translation: ""
+  translation: "Uudemmat"
 - id: previousPost
   translation: "Previous Post"
 - id: nextPost
