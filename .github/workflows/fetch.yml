@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-#        with:
-#          token: ${{ secrets.PUSH_GITHUB_TOKEN }} # use token to trigger deployment
+        with:
+          token: ${{ secrets.PUSH_GITHUB_TOKEN }} # use token to trigger deployment
       # TODO: move this logic to action
       - run: |
           file_path=$(date +'./data/fb/%Y/%m/%Y-%m.json')
