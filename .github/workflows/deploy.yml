@@ -26,7 +26,10 @@ jobs:
         with:
           node-version: "18.x"
       - name: generate files
-        run: node ./tools/index.js
+        run: |
+          node ./tools/index.js
+          node ./tools/parser
+
 
       - name: Build
         run: hugo --minify

@@ -43,17 +43,48 @@ const parse = async () => {
     }
   }
 
-  text = `![Logo](/img/avatar-icon.png)\n\n## Seuraavat tapahtumat\n\n${text}`
+  const eventsText = text
+  text = `![Logo](/img/avatar-icon.png)\n\n`
+  text = `${text}\n\n
+FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä fiiliksellä ja rennolla meiningillä.
+
+Talvikaudella pelaamme futsalia, säbää ja käymme salilla 💪
+Kesäkaudella pelaamme naisten kuntopalloa sekä reenaamme omissa höntsyissä ⚽️
+
+Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm:
+
+* [Unelmacup](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/)
+* [Reiskahöntsyt](https://reiskahontsy.fi/)
+* [Villasukkajuoksun SM](https://villasukkajuoksunsm.fi/)
+
+Ota SoMe-kanavamme seurantaan:
+
+* [Facebook](https://www.facebook.com/fcblingbling)
+* [Instagram](https://www.instagram.com/fcblingbling)
+
+Lähetä viestiä SoMessa tai [sähköpostilla](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan!`
+
+
+  text = `${text}\n\n## Seuraavat tapahtumat\n\n${eventsText}\n\n`
   text = `${text}\n\n  [Kaikki tapahtumat](https://fcblingbling.nimenhuuto.com/events)`
-  text = `${text}\n\n ${await addMatches()}`
 
   fs.writeFileSync('./content/_index.md', text)  
+
+  text = `---
+title: Kuntopallo
+comments: false
+---
+  `
+
+  text = `${text}\n\n ${await addMatches()}`
+  fs.writeFileSync('./content/series/index.md', text)  
+
 }
 
 const addMatches = async () => {
   const matches = await fetchMatches()
 
-  let text = `## Kuntopallo\n\n### [Taulukko](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/group/3/)`
+  let text = `### [Taulukko](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/group/3/)`
 
   const printMatch = match => {
     const date = new Date(match.date)
