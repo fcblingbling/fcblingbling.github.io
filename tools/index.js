@@ -60,7 +60,7 @@ const parse = async () => {
   text = `${text}\n\n
 FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä fiiliksellä ja rennolla meiningillä.
 
-Talvikaudella harjoittelemme futsalia ja säbää sekä käymme salilla 💪 Kesäkaudella pelaamme [naisten kuntopalloa](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/tables) ja reenaamme omissa höntsyissä ⚽️ Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm. [Unelmacuppiin](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/), [Reiskahöntsyihin](https://reiskahontsy.fi/) ja 
+Talvikaudella harjoittelemme futsalia ja säbää sekä käymme salilla 💪 Kesäkaudella pelaamme [naisten kuntopalloa](/series) ja reenaamme omissa höntsyissä ⚽️ Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm. [Unelmacuppiin](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/), [Reiskahöntsyihin](https://reiskahontsy.fi/) ja 
 [Villasukkajuoksun SM-kisoihin](https://villasukkajuoksunsm.fi/).
 
 Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagramissa](https://www.instagram.com/fcblingbling)! Lähetä viestiä tai [sähköpostia](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan.`
@@ -86,7 +86,8 @@ comments: false
 const addMatches = async () => {
   const matches = await fetchMatches()
 
-  let text = `### [Taulukko](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/group/3/)`
+  let text = `FC Bling Bling osallistuu kaudella 2023 palloliiton [Tampereen kuntopallosarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/tables).\n\n
+### Taulukko`
 
   const printMatch = match => {
     const date = new Date(match.date)
@@ -100,6 +101,10 @@ const addMatches = async () => {
   text += matches.status.map(team => team.team_name === 'FC Bling Bling' ? printEmphasizedRow(team) : printRow(team)).join('\n')
   text += '\n\n### Pelit\n\n'
   text += matches.matches.map(printMatch).join('\n')
+  text += '\n\n### Maalit\n\n'
+  text += `\n| Pelaaja | Maalit |\n`
+  text += `|---| ---|\n`
+  text += matches.goals.map(item => `|${item.name} | ${item.goals} |`).join('\n')
   return text
 }
 
