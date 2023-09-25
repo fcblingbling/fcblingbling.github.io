@@ -18,9 +18,9 @@
 - id: newerPosts
   translation: "Uudemmat"
 - id: previousPost
-  translation: "Previous Post"
+  translation: "Edellinen"
 - id: nextPost
-  translation: "Next Post"
+  translation: "Seuraava"
 - id: readTime
   translation: "minutes"
 - id: words

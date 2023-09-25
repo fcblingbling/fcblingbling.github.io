@@ -14,9 +14,9 @@ jobs:
           token: ${{ secrets.PUSH_GITHUB_TOKEN }} # use token to trigger deployment
       # TODO: move this logic to action
       - run: |
-          file_path=$(date +'./data/fb/%Y/%m/%Y-%m.json')
+          file_path=$(date +'./tools/data/fb/%Y/%m/%Y-%m.json')
           prev_month=$(date --date='-1 month' +%m)
-          file_prev_path=$(date +'./data/fb/%Y/'$prev_month'/%Y-'$prev_month'.json')
+          file_prev_path=$(date +'./tools/data/fb/%Y/'$prev_month'/%Y-'$prev_month'.json')
           file_item_count=$(jq length $file_path || echo "0")
           file_prev_item_count=$(jq length $file_prev_path || echo "0")
           echo "LAST_DATA_FILE=$file_path" >> $GITHUB_ENV
@@ -28,6 +28,7 @@ jobs:
           start-year: 2014
           page-id: ${{ secrets.FB_PAGE_ID }}
           page-token: ${{ secrets.FB_PAGE_TOKEN }}
+          data-folder: "./tools/data/fb/"
 
       - run: |
           file_item_count=$(jq length $LAST_DATA_FILE || echo "0")

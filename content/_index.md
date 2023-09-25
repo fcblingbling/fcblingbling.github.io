@@ -5,27 +5,16 @@
 
 FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä fiiliksellä ja rennolla meiningillä.
 
-Talvikaudella pelaamme futsalia, säbää ja käymme salilla 💪
-Kesäkaudella pelaamme naisten kuntopalloa sekä reenaamme omissa höntsyissä ⚽️
+Talvikaudella harjoittelemme futsalia ja säbää sekä käymme salilla 💪 Kesäkaudella pelaamme [naisten kuntopalloa](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/tables) ja reenaamme omissa höntsyissä ⚽️ Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm. [Unelmacuppiin](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/), [Reiskahöntsyihin](https://reiskahontsy.fi/) ja 
+[Villasukkajuoksun SM-kisoihin](https://villasukkajuoksunsm.fi/).
 
-Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm:
-
-* [Unelmacup](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/)
-* [Reiskahöntsyt](https://reiskahontsy.fi/)
-* [Villasukkajuoksun SM](https://villasukkajuoksunsm.fi/)
-
-Ota SoMe-kanavamme seurantaan:
-
-* [Facebook](https://www.facebook.com/fcblingbling)
-* [Instagram](https://www.instagram.com/fcblingbling)
-
-Lähetä viestiä SoMessa tai [sähköpostilla](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan!
+Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagramissa](https://www.instagram.com/fcblingbling)! Lähetä viestiä tai [sähköpostia](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan.
 
 ## Seuraavat tapahtumat
 
-* ke 20.9.2023 klo 17:00 *Kiovanpuisto*: **FC Bling Bling-FC Satakunnankatumus10**
-* to 21.9.2023 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
-* su 24.9.2023 klo 17:00 *Tesoman koulu - Tesoman koulutalo*: **Säbä**
+* ma 25.9.2023 klo 17:30 *Kaarilan koulu*: **Futsal**
+* to 28.9.2023 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* su 1.10.2023 klo 17:00 *Tesoman koulu - Tesoman koulutalo*: **Säbä**
 
 
 
