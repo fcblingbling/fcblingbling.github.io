@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 const parseFeed = () => {
-    const basePath = './data/fb';
+    const basePath = './tools/data/fb';
     const target = './content/feed'
 
     if (fs.existsSync(target)) {

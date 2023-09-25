@@ -2,6 +2,7 @@ const fs = require("fs");
 const http = require("https");
 
 const fetchMatches = require('./fetch-matches')
+const parseFeed = require("./parser/feed");
 
 const fetchUrl = async (url, path) =>
   new Promise((resolve, reject) => {
@@ -14,6 +15,17 @@ const fetchUrl = async (url, path) =>
       })
       .end();
   });
+
+const createFolder =  target =>  {
+  if (fs.existsSync(target)) {
+    fs.rmSync(target, {
+        recursive: true,
+        force: true
+    })
+  }
+  fs.mkdirSync(target)
+}
+
 
 const parse = async () => {
   const fileName = './events.csv'
@@ -48,21 +60,10 @@ const parse = async () => {
   text = `${text}\n\n
 FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä fiiliksellä ja rennolla meiningillä.
 
-Talvikaudella pelaamme futsalia, säbää ja käymme salilla 💪
-Kesäkaudella pelaamme naisten kuntopalloa sekä reenaamme omissa höntsyissä ⚽️
+Talvikaudella harjoittelemme futsalia ja säbää sekä käymme salilla 💪 Kesäkaudella pelaamme [naisten kuntopalloa](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/tables) ja reenaamme omissa höntsyissä ⚽️ Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm. [Unelmacuppiin](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/), [Reiskahöntsyihin](https://reiskahontsy.fi/) ja 
+[Villasukkajuoksun SM-kisoihin](https://villasukkajuoksunsm.fi/).
 
-Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm:
-
-* [Unelmacup](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/)
-* [Reiskahöntsyt](https://reiskahontsy.fi/)
-* [Villasukkajuoksun SM](https://villasukkajuoksunsm.fi/)
-
-Ota SoMe-kanavamme seurantaan:
-
-* [Facebook](https://www.facebook.com/fcblingbling)
-* [Instagram](https://www.instagram.com/fcblingbling)
-
-Lähetä viestiä SoMessa tai [sähköpostilla](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan!`
+Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagramissa](https://www.instagram.com/fcblingbling)! Lähetä viestiä tai [sähköpostia](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan.`
 
 
   text = `${text}\n\n## Seuraavat tapahtumat\n\n${eventsText}\n\n`
@@ -77,7 +78,7 @@ comments: false
   `
 
   text = `${text}\n\n ${await addMatches()}`
-  fs.mkdirSync('./content/series')
+  createFolder('./content/series')
   fs.writeFileSync('./content/series/index.md', text)  
 
 }
@@ -102,4 +103,18 @@ const addMatches = async () => {
   return text
 }
 
+const copyLastPost = () => {
+  createFolder('./content/post')
+  const year = fs.readdirSync('./content/feed').sort((a, b) => a < b ? 1 : -1).find(item => parseInt(item, 10) > 0)
+  if (year) {
+    const lastPost = fs.readdirSync(`./content/feed/${year}`).sort((a, b) => a < b ? 1 : -1)[0]
+    const target = `./content/post/latest.md`
+    fs.copyFileSync(`./content/feed/${year}/${lastPost}`, target)
+    const contents = fs.readFileSync(target).toString()
+    fs.writeFileSync(target, `${contents}\n\n***\n\n[**Lisää uutisia ➡️**](./feed)`)
+  }
+}
+
 parse()
+parseFeed();
+copyLastPost();

@@ -21,7 +21,6 @@ jobs:
       - name: generate files
         run: |
           node ./tools/index.js
-          node ./tools/parser
 
       - name: Build
         run: hugo --minify

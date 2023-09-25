@@ -11,8 +11,6 @@ pygmentsCodefencesGuessSyntax = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
-ignorefiles = [ "data/.*" ]
-
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä meiningillä."
@@ -25,7 +23,7 @@ ignorefiles = [ "data/.*" ]
   comments = false
   readingTime = false
   wordCount = false
-  useHLJS = true
+  useHLJS = false
   socialShare = false
   delayDisqus = false
   showRelatedPosts = false
