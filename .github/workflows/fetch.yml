@@ -36,6 +36,6 @@ jobs:
           if [[ "$LAST_FILE_COUNT" -ne "$file_item_count" || "$LAST_PREV_FILE_COUNT" -ne "$file_prev_item_count" ]]; then
             git config --global user.email "fb-bot"
             git config --global user.name "fb-bot"
-            git add data
+            git add tools/data
             git diff-index --quiet HEAD || git commit -a -m "Add latest posts." && git push;
           fi
