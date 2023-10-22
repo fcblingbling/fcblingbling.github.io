@@ -1,7 +1,7 @@
 const fs = require("fs");
 const http = require("https");
 
-const fetchMatches = require('./fetch-matches')
+const printMatches = require('./print-matches')
 const parseFeed = require("./parser/feed");
 
 const fetchUrl = async (url, path) =>
@@ -61,7 +61,7 @@ const parse = async () => {
   text = `${text}\n\n
 FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä fiiliksellä ja rennolla meiningillä.
 
-Talvikaudella harjoittelemme futsalia ja säbää sekä käymme salilla 💪 Kesäkaudella pelaamme [naisten kuntopalloa](/series) ja reenaamme omissa höntsyissä ⚽️ Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm. [Unelmacuppiin](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/), [Reiskahöntsyihin](https://reiskahontsy.fi/) ja 
+Talvikaudella harjoittelemme futsalia ja säbää sekä käymme salilla 💪 Kaudella 2023-24 osallistumme myös [Harrastefutsal-sarjaan](/futsal). Kesäkaudella pelaamme [naisten kuntopalloa](/series) ja reenaamme omissa höntsyissä ⚽️ Osallistumme erilaisiin tapahtumiin pitkin vuotta, mm. [Unelmacuppiin](https://www.palloliitto.fi/kilpailut/turnaukset-ja-lopputurnaukset/unelma-cuppi/), [Reiskahöntsyihin](https://reiskahontsy.fi/) ja 
 [Villasukkajuoksun SM-kisoihin](https://villasukkajuoksunsm.fi/).
 
 Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagramissa](https://www.instagram.com/fcblingbling)! Lähetä viestiä tai [sähköpostia](mailto:fcblingbling@gmail.com), jos haluat mukaan toimintaan.`
@@ -70,43 +70,11 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
   text = `${text}\n\n## Seuraavat tapahtumat\n\n${eventsText}\n\n`
   text = `${text}\n\n  [Kaikki tapahtumat](https://fcblingbling.nimenhuuto.com/events)`
 
-  fs.writeFileSync('./content/_index.md', text)  
+  fs.writeFileSync('./content/_index.md', text)
 
-  text = `---
-title: Kuntopallo
-comments: false
----
-  `
+  await printMatches('Kuntopallo', 'lanhl23', 'NH1', '2023', 'Tampereen kuntopallo', 'series')
+  await printMatches('Futsal', 'lanfshl2324', 'FNH1', '2023-24', 'Tampereen harrastefutsal', 'futsal')
 
-  text = `${text}\n\n ${await addMatches()}`
-  createFolder('./content/series')
-  fs.writeFileSync('./content/series/index.md', text)  
-
-}
-
-const addMatches = async () => {
-  const matches = await fetchMatches()
-
-  let text = `FC Bling Bling osallistuu kaudella 2023 palloliiton [Tampereen kuntopallosarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl23/tables).\n\n
-### Taulukko`
-
-  const printMatch = match => {
-    const date = new Date(match.date)
-    return `* *${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.toLocaleDateString('fi-FI')}*: ${match.team_A_name} – ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
-  }
-  const printRow = team => `|${team.current_standing} | ${team.team_name} | ${team.points} |`
-  const printEmphasizedRow = team => `| **${team.current_standing}** | **${team.team_name}** | **${team.points}** |`
-  
-  text += `\n| # | Joukkue | Pisteet |\n`
-  text += `|---|---------| ---|\n`
-  text += matches.status.map(team => team.team_name === 'FC Bling Bling' ? printEmphasizedRow(team) : printRow(team)).join('\n')
-  text += '\n\n### Pelit\n\n'
-  text += matches.matches.map(printMatch).join('\n')
-  text += '\n\n### Maalit\n\n'
-  text += `\n| Pelaaja | Maalit |\n`
-  text += `|---| ---|\n`
-  text += matches.goals.map(item => `|${item.name} | ${item.goals} |`).join('\n')
-  return text
 }
 
 const copyLastPost = () => {

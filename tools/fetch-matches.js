@@ -13,15 +13,15 @@ const fetchUrl = async (url) =>
       .end();
   });
 
-module.exports = async () => {
-  const res = await fetchUrl('https://spl.torneopal.net/taso/rest/getMatches?competition_id=lanhl23&category_id=NH1&tpid=-187858559')
+module.exports = async (competitionId = 'lanhl23', categoryId = 'NH1') => {
+  const res = await fetchUrl(`https://spl.torneopal.net/taso/rest/getMatches?competition_id=${competitionId}&category_id=${categoryId}&tpid=-187858559`)
   const matches = JSON.parse(res).matches.filter(item => item.team_A_name === 'FC Bling Bling' || item.team_B_name === 'FC Bling Bling')
   if (!matches.length) {
     console.log(`Encountered error fetching matches ${res}`)
     process.exit(1)
   }
 
-  const categoryRes = await fetchUrl("https://spl.torneopal.net/taso/rest/getCategory?competition_id=lanhl23&category_id=NH1&tpid=807056810")
+  const categoryRes = await fetchUrl(`https://spl.torneopal.net/taso/rest/getCategory?competition_id=${competitionId}&category_id=${categoryId}&tpid=807056810`)
   const category = JSON.parse(categoryRes).category
   if (!category.groups.length) {
     console.log(`Encountered error fetching matches ${categoryRes}`)
