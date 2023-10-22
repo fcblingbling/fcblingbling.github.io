@@ -85,6 +85,11 @@ pygmentsCodefencesGuessSyntax = true
     url = "series"
     weight = 2
 
+[[menu.main]]
+    name = "Futsal"
+    url = "futsal"
+    weight = 3
+
 #[[menu.main]]
 #    identifier = "samples"
 #    name = "Samples"
