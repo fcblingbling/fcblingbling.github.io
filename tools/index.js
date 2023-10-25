@@ -3,6 +3,8 @@ const http = require("https");
 
 const printMatches = require('./print-matches')
 const parseFeed = require("./parser/feed");
+const createLottery = require("./create-lottery");
+const { createFolder } = require("./utils")
 
 const fetchUrl = async (url, path) =>
   new Promise((resolve, reject) => {
@@ -16,17 +18,6 @@ const fetchUrl = async (url, path) =>
       .end();
   });
 
-const createFolder =  target =>  {
-  if (fs.existsSync(target)) {
-    fs.rmSync(target, {
-        recursive: true,
-        force: true
-    })
-  }
-  fs.mkdirSync(target)
-}
-
-
 const parse = async () => {
   const fileName = './events.csv'
   await fetchUrl('https://fcblingbling.nimenhuuto.com/calendar/csv', fileName)
@@ -38,11 +29,11 @@ const parse = async () => {
   let i = 1;
   let count = 0;
   let text = ''
+  const eventURLs = []
   while (count < 3 && i < lines.length) {
     const line = lines[i++]
     if (line.includes(',')) {
       const words = line.split(',')
-
       const date = new Date(`${words[1]}T${words[2]}:00.000Z`)
       if (date.getDate() > 0) {
         count++
@@ -52,6 +43,11 @@ const parse = async () => {
         const location = locationStr.includes(" - ") ? locationStr.split(" - ")[1] : locationStr
 
         text += `* ${fmtDate}${location ? ` *${location}*` : ''}: **${title}**\n`
+
+        const url = words[words.length - 1].replaceAll('"', '')
+        if (url.startsWith('https://fcblingbling.nimenhuuto.com/events')) {
+          eventURLs.push(url.split(' ')[0])
+        }
       }
     }
   }
@@ -75,6 +71,7 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
   await printMatches('Kuntopallo', 'lanhl23', 'NH1', '2023', 'Tampereen kuntopallo', 'series')
   await printMatches('Futsal', 'lanfshl2324', 'FNH1', '2023-24', 'Tampereen harrastefutsal', 'futsal')
 
+  await createLottery(eventURLs)
 }
 
 const copyLastPost = () => {

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const fetchMatches = require('./fetch-matches')
+const { createFolder } = require("./utils")
 
 const addMatches = async (competitionId, categoryId, season, seriesName) => {
   const matches = await fetchMatches(competitionId, categoryId)
@@ -24,16 +25,6 @@ const addMatches = async (competitionId, categoryId, season, seriesName) => {
   text += `|---| ---|\n`
   text += matches.goals.map(item => `|${item.name} | ${item.goals} |`).join('\n')
   return text
-}
-
-const createFolder =  target =>  {
-  if (fs.existsSync(target)) {
-    fs.rmSync(target, {
-        recursive: true,
-        force: true
-    })
-  }
-  fs.mkdirSync(target)
 }
 
 module.exports = async (
