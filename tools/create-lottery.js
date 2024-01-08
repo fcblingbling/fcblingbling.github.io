@@ -12,16 +12,48 @@ module.exports = async (urls) => {
       const startIndex = playerItem.lastIndexOf('>', endIndex)
       return playerItem.substring(startIndex + 1, endIndex).replaceAll('\n', '').trim()
     })
-    return players
+
+    const titleStartStr = 'class="event_information">'
+    const titleStartIndex = item.indexOf(titleStartStr) + titleStartStr.length
+    const titleEndIndex = item.indexOf('<', titleStartIndex)
+
+    const whenStartStr = 'datetime="'
+    const whenStartStrLen = whenStartStr.length
+    const whenStartIndex = item.indexOf(whenStartStr) + whenStartStrLen
+    const whenEndIndex = item.indexOf('"', whenStartIndex)
+    return {
+      players,
+      title: item.substring(titleStartIndex, titleEndIndex),
+      when: item.substring(whenStartIndex, whenEndIndex),
+    }
   })
+
   createFolder(`./content/lottery`)
   let text = `---
 title: Marikan arvontakone
 comments: false
 ---
+${playerDetails.map(event => {
+  const date = new Date(event.when)
+  const team1 = [];
+  while (team1.length < event.players.length) {
+    const index = Math.floor(Math.random() * (event.players.length-1));
+    team1.push(event.players[index])
+    event.players.splice(index, 1)
+  }
+
+  return `
+## ${date.getDate()}.${date.getMonth() +1}. ${event.title}
+
+### Team 1: Oranssit
+${team1.sort().map(item => `* ${item}`).join('\n')}
+
+### Team 2: Keltsit
+${event.players.sort().map(item => `* ${item}`).join('\n')}
 `
-    // console.log(playerDetails)
-    // list event info and teams
+}).join()}
+`
+
     // https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
     // dynamically set cron schedule before each event
 
