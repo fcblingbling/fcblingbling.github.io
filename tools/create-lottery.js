@@ -34,28 +34,28 @@ title: Marikan arvontakone
 comments: false
 ---
 ${playerDetails.map(event => {
-  const date = new Date(event.when)
-  const team1 = [];
-  while (team1.length < event.players.length) {
-    const index = Math.floor(Math.random() * (event.players.length-1));
-    team1.push(event.players[index])
-    event.players.splice(index, 1)
-  }
+    const date = new Date(event.when)
+    const team1 = [];
+    while (team1.length < event.players.length) {
+      const index = Math.floor(Math.random() * (event.players.length - 1));
+      team1.push(event.players[index])
+      event.players.splice(index, 1)
+    }
 
-  return `
-## ${date.getDate()}.${date.getMonth() +1}. ${event.title}
+    return `
+## ${date.getDate()}.${date.getMonth() + 1}. ${event.title}
 
-### Team 1: Oranssit
+### Tiimi 1: Oranssit
 ${team1.sort().map(item => `* ${item}`).join('\n')}
 
-### Team 2: Keltsit
+### Tiimi 2: Keltsit
 ${event.players.sort().map(item => `* ${item}`).join('\n')}
 `
-}).join()}
+  }).join('***\n')}
 `
 
-    // https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
-    // dynamically set cron schedule before each event
+  // https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
+  // dynamically set cron schedule before each event
 
-    fs.writeFileSync(`./content/lottery/index.md`, text)  
+  fs.writeFileSync(`./content/lottery/index.md`, text)
 }
