@@ -1,0 +1,16 @@
+name: deploy
+on:
+  push:
+    branches: main
+  schedule:
+    - cron: "15 20 * * 4" # Runs at 00:00
+permissions:
+  contents: write
+  pages: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/deploy
+        with:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}

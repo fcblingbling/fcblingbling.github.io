@@ -11,29 +11,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: ./.github/actions/deploy
+        with:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  schedule-needed-deploy:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v3
         with:
-          submodules: recursive
-          fetch-depth: 1
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "0.111.3"
-          extended: true
-
+          token: ${{ secrets.PUSH_GITHUB_TOKEN }} # use token to trigger deployment
       - uses: actions/setup-node@v3
         with:
           node-version: "18.x"
       - name: generate files
+        shell: bash
         run: |
           node ./tools/index.js
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: commit changes to workflow
+        run: |
+          git config --global user.email "github-actions"
+          git config --global user.name "github-actions"
+          git add .github
+          git commit -a -m "Schedule deployment."
+          git push
