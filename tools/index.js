@@ -59,7 +59,7 @@ const parse = async () => {
     }
   }
 
-  const workflowContent = fs.readFileSync('.github/workflows/deploy.yml').toString();
+  const workflowContent = fs.readFileSync('tools/deploy.yml').toString();
   const extraWorkflowContent = workflowContent.replaceAll(
     "0 0 * * *", `${nextEventAlarm.minutes} ${nextEventAlarm.hour} * * ${nextEventAlarm.day}`)
   fs.writeFileSync('.github/workflows/extra.yml', extraWorkflowContent)
