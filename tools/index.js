@@ -38,10 +38,13 @@ const parse = async () => {
       const date = new Date(`${words[1]}T${words[2]}:00.000Z`)
       if (date.getDate() > 0) {
         if (count === 0) {
-          const alarmDate = new Date(date.getTime() - 15 * 1000 * 60)
-          nextEventAlarm.day = alarmDate.getDay()
-          nextEventAlarm.hour = alarmDate.getHours()
-          nextEventAlarm.minutes = alarmDate.getMinutes()
+          // TODO: clean up this ugly mess to handle time zone diff
+          const timeZoneDiff = new Date().toLocaleString('fi-FI', { timeZone: 'Europe/Helsinki', timeZoneName: 'short' }).split('+')[1];
+          const utcAlarmDate = new Date(date.getTime() - 15 * 1000 * 60)
+          const alarmDate = new Date(utcAlarmDate.toISOString().replace("Z", "+0"+timeZoneDiff+":00"))
+          nextEventAlarm.day = alarmDate.getUTCDay()
+          nextEventAlarm.hour = alarmDate.getUTCHours()
+          nextEventAlarm.minutes = alarmDate.getUTCMinutes()
         }
         count++
         const fmtDate = `${date.toLocaleString('fi-FI', { weekday: 'short' })} ${date.getUTCDate()}.${date.getUTCMonth() + 1}.${date.getUTCFullYear()} klo ${date.getUTCHours()}:${zeroPad(date.getUTCMinutes(), 2)}`
