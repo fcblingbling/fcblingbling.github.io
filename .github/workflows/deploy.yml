@@ -36,4 +36,5 @@ jobs:
         run: |
           git config --global user.email "github-actions"
           git config --global user.name "github-actions"
-          git diff-index --quiet HEAD || git commit -a -m "Schedule deployment." && git push;
+          git add .github
+          (git commit -a -m "Schedule deployment." && git push) || echo "No changes to commit"
