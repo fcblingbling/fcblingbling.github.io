@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 18.1.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * su 21.1.2024 klo 15:10 *Raholan liikuntakeskus*: **FC Bling Bling-Loiske Ladies**
 * su 21.1.2024 klo 16:00 *Raholan liikuntakeskus*: **Kämmärin Mammarit-FC Bling Bling**
+* su 21.1.2024 klo 17:00 *Tesoman koulutalo*: **Säbä**
 
 
 
