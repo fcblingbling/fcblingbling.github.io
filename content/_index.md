@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 22.1.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsal**
 * to 25.1.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * la 27.1.2024 klo 11:20 *Raholan liikuntakeskus*: **FC Bling Bling-FC Nokia/3**
+* la 27.1.2024 klo 12:10 *Raholan liikuntakeskus*: **FC Tesma-FC Bling Bling**
 
 
 
