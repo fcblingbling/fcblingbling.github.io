@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 28.1.2024 klo 17:00 *Tesoman koulutalo*: **Säbä**
 * ma 29.1.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsal**
 * to 1.2.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* la 3.2.2024 klo 15:00 *Pirkkahalli D2*: **FC Tesma-FC Bling Bling**
 
 
 
