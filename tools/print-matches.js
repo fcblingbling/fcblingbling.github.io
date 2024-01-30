@@ -10,7 +10,7 @@ const addMatches = async (competitionId, categoryId, season, seriesName) => {
 
   const printMatch = match => {
     const date = new Date(match.date)
-    return `* *${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.toLocaleDateString('fi-FI')}*: ${match.team_A_name} – ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
+    return `* *${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.toLocaleDateString('fi-FI')}*:\\\n  ${match.team_A_name} – ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
   }
   const printRow = team => `|${team.current_standing} | ${team.team_name} | ${team.points} |`
   const printEmphasizedRow = team => `| **${team.current_standing}** | **${team.team_name}** | **${team.points}** |`

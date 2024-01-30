@@ -40,7 +40,7 @@ const parse = async () => {
         if (count === 0) {
           // TODO: clean up this ugly mess to handle time zone diff
           const timeZoneDiff = new Date().toLocaleString('fi-FI', { timeZone: 'Europe/Helsinki', timeZoneName: 'short' }).split('+')[1];
-          const utcAlarmDate = new Date(date.getTime() - 15 * 1000 * 60)
+          const utcAlarmDate = new Date(date.getTime() - 30 * 1000 * 60)
           const alarmDate = new Date(utcAlarmDate.toISOString().replace("Z", "+0"+timeZoneDiff+":00"))
           nextEventAlarm.day = alarmDate.getUTCDay()
           nextEventAlarm.hour = alarmDate.getUTCHours()
