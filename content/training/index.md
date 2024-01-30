@@ -6,7 +6,19 @@ noindex: true
 
 Ideoita ja inspiraatiota Blingin reeneihin ⚽️🥅🏋️‍♀️
 
-## Ellin reeni 1
+## Pallonkäsittely
+  * [Video](https://www.youtube.com/playlist?list=PL7FRD1QjoTyLVU8qCDK0dJ-TLn20pYgeu)
+
+## Pelit&Leikit
+  * [Video](https://www.youtube.com/watch?v=srhLxeGU1DQ&list=PL7FRD1QjoTyInDRyvEWlzCbcG-cbL_Sz9&index=2)
+  * [Treenipankki](https://ppj.fi/wp-content/uploads/2015/08/treenipankki.pdf)
+
+## Vinkkejä
+  * [Video](https://www.youtube.com/watch?v=OeZXnMBVilE&list=PL7FRD1QjoTyIise8cNT3BmN6Iuymn8hjC&index=1)
+
+## Esimerkiksi
+
+### Ellin reeni 1
 
 * **Laji**: Futsal
 * **Osallistujat**: 6
@@ -31,7 +43,7 @@ Ideoita ja inspiraatiota Blingin reeneihin ⚽️🥅🏋️‍♀️
       ![Possun kiusaus](possun-kiusaus.png)
       ***
 
-## Ellin reeni 2
+### Ellin reeni 2
 
 * **Laji**: Futsal
 * **Osallistujat**: 9
@@ -51,4 +63,17 @@ Ideoita ja inspiraatiota Blingin reeneihin ⚽️🥅🏋️‍♀️
     ![Pakin menetys](pakin-menetys.png)
     ***
 
+### Ellin reeni 3
+* **Laji**: Futsal
+* **Osallistujat**: 9
+* **Reenit**:
+  * **Syöttö ja juoksu lyhimpään jonoon**
+    ***
+  * **Perusharhautukset**
+    * Vartaloharhautus
+    * Valelaukaus
+    ***
+  * **Olkapää olkapäätä vasten boxissa**
+    * 
+    ***
 
