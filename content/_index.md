@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
+* su 3.3.2024 klo 17:30 *Tesoman koulun kenttä*: **Ulkohöntsyt**
 * ma 4.3.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsal**
 * to 7.3.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
-* la 9.3.2024 klo 14:15 *Raholan liikuntakeskus*: **FC Bling Bling-Kämmärin Mammarit**
 
 
 
