@@ -4,7 +4,7 @@ const { createFolder } = require("./utils")
 
 const addMatches = async (competitionId, categoryId, season, seriesName) => {
   const matches = await fetchMatches(competitionId, categoryId)
-  if (!matches.length) {
+  if (!matches.matches) {
     return ''
   }
 
