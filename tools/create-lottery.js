@@ -29,10 +29,16 @@ module.exports = async (urls) => {
   })
 
   createFolder(`./content/lottery`)
+
+  const currentTime = new Date().toLocaleString('fi-FI', {timeZone: 'Europe/Helsinki' })
+
+
   let text = `---
 title: Marikan arvontakone
 comments: false
 ---
+Arvonta suoritettu ${currentTime}
+
 ${playerDetails.map(event => {
     const date = new Date(event.when)
     const team1 = [];
@@ -43,6 +49,7 @@ ${playerDetails.map(event => {
     }
 
     return `
+
 ## ${date.getDate()}.${date.getMonth() + 1}. ${event.title}
 
 ### Tiimi 1: Oranssit
