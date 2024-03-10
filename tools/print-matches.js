@@ -4,6 +4,9 @@ const { createFolder } = require("./utils")
 
 const addMatches = async (competitionId, categoryId, season, seriesName) => {
   const matches = await fetchMatches(competitionId, categoryId)
+  if (!matches.length) {
+    return ''
+  }
 
   let text = `FC Bling Bling osallistuu kaudella ${season} palloliiton [${seriesName} -sarjaan](https://tulospalvelu.palloliitto.fi/category/${categoryId}!${competitionId}/tables).\n\n
 ### Taulukko`
@@ -35,13 +38,17 @@ module.exports = async (
   seriesName = 'Tampereen kuntopallo',
   shortName = 'series'
 ) => {
+  const matches = await addMatches(competitionId, categoryId, season, seriesName)
+  if (!matches) {
+    return
+  }
   let text = `---
 title: ${title}
 comments: false
 ---
   `
 
-  text = `${text}\n\n ${await addMatches(competitionId, categoryId, season, seriesName)}`
+  text = `${text}\n\n ${matches}`
   createFolder(`./content/${shortName}`)
   fs.writeFileSync(`./content/${shortName}/index.md`, text)  
 
