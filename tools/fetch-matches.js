@@ -1,16 +1,17 @@
-const fs = require("fs");
-const http = require("https");
+const exec = require('child_process').exec;
 
 const fetchUrl = async (url) =>
   new Promise((resolve, reject) => {
-    let result = ''
-    http
-      .request(url, { headers: { accept: 'json/df8e84j9xtdz269euy3h'}}, function (res) {
-        res.on('data', data => result += data);
-        res.on('end', () => resolve(result));
-        res.on('error', reject);
-      })
-      .end();
+    // TODO: node client is blocked by CF
+    const command =   `curl '${url}' -H 'accept: json/df8e84j9xtdz269euy3h' -H 'user-agent: script'`
+    exec(command, (error, stdout, stderr) => {
+      //console.log(stderr)
+      if (error) {
+        reject(error)
+      } else {
+        resolve(stdout)
+      }
+    })
   });
 
 module.exports = async (competitionId = 'lanhl23', categoryId = 'NH1') => {
@@ -47,8 +48,14 @@ module.exports = async (competitionId = 'lanhl23', categoryId = 'NH1') => {
     return result
   }, {})
   const goals = Object.keys(goalMakers).map(item => {
-    const parts = item.split(" ")
-    return { name: `${parts[1]} ${parts[0].charAt(0)}.`, goals: goalMakers[item]}
+    const name = item.startsWith("(") ? item : (
+      () => {
+        const parts = item.split(" ")
+        return `${parts[1]} ${parts[0].charAt(0)}.`
+      }
+    )()
+    
+    return { name, goals: goalMakers[item]}
   }).sort((a, b) => a.goals === b.goals ? (a.name < b.name ? -1 : 1) : (a.goals < b.goals ? 1 : -1))
   return {
     matches: matches,
