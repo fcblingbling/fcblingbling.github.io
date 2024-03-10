@@ -15,7 +15,13 @@ const fetchUrl = async (url) =>
 
 module.exports = async (competitionId = 'lanhl23', categoryId = 'NH1') => {
   const res = await fetchUrl(`https://spl.torneopal.net/taso/rest/getMatches?competition_id=${competitionId}&category_id=${categoryId}&tpid=-187858559`)
-  const matches = JSON.parse(res).matches.filter(item => item.team_A_name === 'FC Bling Bling' || item.team_B_name === 'FC Bling Bling')
+  let matches = []
+  try {
+    matches = JSON.parse(res).matches.filter(item => item.team_A_name === 'FC Bling Bling' || item.team_B_name === 'FC Bling Bling')
+  } catch {
+    console.log("Failed to fetch data:", res)
+    return {}
+  }
   if (!matches.length) {
     console.log(`Encountered error fetching matches ${res}`)
     process.exit(1)
