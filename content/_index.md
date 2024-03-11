@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 10.3.2024 klo 17:00 *Tesoman koulutalo*: **Säbä**
 * ma 11.3.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsal**
 * to 14.3.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* la 16.3.2024 klo 17:00 *Lamminpään ulkoilumaja*: **Saunailta**
 
 
 
