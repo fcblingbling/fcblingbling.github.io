@@ -2,13 +2,13 @@ const fs = require("fs");
 const fetchMatches = require('./fetch-matches')
 const { createFolder } = require("./utils")
 
-const addMatches = async (competitionId, categoryId, season, seriesName) => {
+const addMatches = async (latest, competitionId, categoryId, season, seriesName) => {
   const matches = await fetchMatches(competitionId, categoryId)
   if (!matches.matches) {
     return ''
   }
 
-  let text = `FC Bling Bling osallistuu kaudella ${season} palloliiton [${seriesName} -sarjaan](https://tulospalvelu.palloliitto.fi/category/${categoryId}!${competitionId}/tables).\n\n
+  let text = `FC Bling Bling ${latest ? 'osallistuu' : 'osallistui'} kaudella ${season} palloliiton [${seriesName} -sarjaan](https://tulospalvelu.palloliitto.fi/category/${categoryId}!${competitionId}/tables).\n\n
 ### Taulukko`
 
   const printMatch = match => {
@@ -32,24 +32,42 @@ const addMatches = async (competitionId, categoryId, season, seriesName) => {
 
 module.exports = async (
   title = 'Kuntopallo',
-  competitionId = 'lanhl23',
-  categoryId = 'NH1',
-  season = '2023',
-  seriesName = 'Tampereen kuntopallo',
-  shortName = 'series'
+  seasons = [{
+    competitionId: 'lanhl23',
+    categoryId: 'NH1',
+    season: '2023',
+    seriesName: 'Tampereen kuntopallo',
+    shortName: 'series'
+  }]
 ) => {
-  const matches = await addMatches(competitionId, categoryId, season, seriesName)
-  if (!matches) {
-    return
-  }
-  let text = `---
+  for (season of seasons) {
+    if (!season.active) {
+      console.log(`Season ${season.season} not active, skipping fetch`)
+      continue
+    }
+    const { latest, competitionId, categoryId, season: seasonName, shortName, seriesName } = season;
+    const matches = await addMatches(latest, competitionId, categoryId, seasonName, seriesName)
+    if (!matches) {
+      break
+    }
+    let text = `---
 title: ${title}
 comments: false
+layout: single
 ---
-  `
 
-  text = `${text}\n\n ${matches}`
-  createFolder(`./content/${shortName}`)
-  fs.writeFileSync(`./content/${shortName}/index.md`, text)  
+${seasons.map(item => season.competitionId === item.competitionId ?
+  item.season :
+  `[${item.season}](/${shortName}/${item.latest ? '' : item.season})`).join(' | ')}
+`
+
+    text = `${text}\n\n ${matches}`
+    if (season.latest) {
+      fs.writeFileSync(`./content/${shortName}/_index.md`, text)
+    } else {
+      fs.writeFileSync(`./content/${shortName}/${seasonName}.md`, text)
+    }
+
+    }
 
 }

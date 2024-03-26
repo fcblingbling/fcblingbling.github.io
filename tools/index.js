@@ -83,8 +83,33 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
   fs.writeFileSync('./content/_index.md', text)
 
-  await printMatches('Kuntopallo', 'lanhl23', 'NH1', '2023', 'Tampereen kuntopallo', 'series')
-  await printMatches('Futsal', 'lanfshl2324', 'FNH1', '2023-24', 'Tampereen harrastefutsal', 'futsal')
+  await printMatches('Kuntopallo', [{
+    latest: true,
+    active: true,
+    competitionId: 'lanhl24',
+    categoryId: 'NH1',
+    season: '2024',
+    seriesName: 'Tampereen kuntopallo',
+    shortName: 'series'
+  },
+  {
+    latest: false,
+    active: false,
+    competitionId: 'lanhl23',
+    categoryId: 'NH1',
+    season: '2023',
+    seriesName: 'Tampereen kuntopallo',
+    shortName: 'series'
+  }])
+  await printMatches('Futsal', [{
+    latest: true,
+    active: false,
+    competitionId: 'lanfshl2324',
+    categoryId: 'FNH1',
+    season: '2023-24',
+    seriesName: 'Tampereen harrastefutsal',
+    shortName: 'futsal'
+  }])
 
   await createLottery(eventURLs)
 }
