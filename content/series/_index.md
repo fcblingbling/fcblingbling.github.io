@@ -18,8 +18,8 @@ layout: single
 |3 | FC Päätyyn Asti | 0 |
 |4 | Feenix | 0 |
 |5 | Ipattaret | 0 |
-|6 | Mahti | 0 |
-|7 | MIGFutis | 0 |
+|6 | MIGFutis | 0 |
+|7 | Mahti | 0 |
 |8 | TKT/Tiikerit | 0 |
 
 ### Pelit
