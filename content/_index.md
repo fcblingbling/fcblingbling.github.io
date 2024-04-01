@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 31.3.2024 klo 17:00 *Tesoman koulun kenttä*: **Ulkohöntsyt**
 * ma 1.4.2024 klo 17:30 *Tesoman koulun kenttä*: **Ulkohöntsyt**
 * to 4.4.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* su 7.4.2024 klo 17:00 *Tesoman koulutalo*: **Säbä**
 
 
 
