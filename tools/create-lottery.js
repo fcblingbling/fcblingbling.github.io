@@ -8,7 +8,7 @@ module.exports = async (urls) => {
     const endIndex = item.indexOf('enroll_2')
     const allPlayersData = item.substring(startIndex, endIndex)
     const players = allPlayersData.split('id="player').filter((_, index) => index > 0).map(playerItem => {
-      const endIndex = playerItem.indexOf('</span>')
+      const endIndex = playerItem.indexOf('<')
       const startIndex = playerItem.lastIndexOf('>', endIndex)
       return playerItem.substring(startIndex + 1, endIndex).replaceAll('\n', '').trim()
     })
