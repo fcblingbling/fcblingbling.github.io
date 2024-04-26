@@ -12,8 +12,8 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 25.4.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * su 28.4.2024 klo 17:00 *Tesoman koulutalo*: **VUORO PERUTTU TANSSIKILPAILUN VUOKSISäbä**
+* su 28.4.2024 klo 18:00 *Tesoman koulun kenttä*: **Ulkohöntsyt**
 * ma 29.4.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsal**
 
 
