@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* pe 3.5.2024 klo 17:30 *Tehtaan sauna Sellukatu 1*: **FC Bling Bling ry:n vuosikokous**
 * su 5.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ti 7.5.2024 klo 18:00 *Riihitien kenttä*: **TKT Tiikerit-FC Bling Bling**
+* la 11.5.2024 klo 10:00 *Ylöjärven Ilves Areena*: **Säbäturnaus**
 
 
 
