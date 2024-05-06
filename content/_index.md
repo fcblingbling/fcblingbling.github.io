@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 5.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ti 7.5.2024 klo 18:00 *Riihitien kenttä*: **TKT Tiikerit-FC Bling Bling**
 * la 11.5.2024 klo 10:00 *Ylöjärven Ilves Areena*: **Säbäturnaus**
+* su 12.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 
 
 
