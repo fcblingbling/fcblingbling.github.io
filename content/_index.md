@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 11.5.2024 klo 10:00 *Ylöjärven Ilves Areena*: **Säbäturnaus**
 * su 12.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ma 13.5.2024 klo 19:40 *Riihitien kenttä*: **FC Bling Bling-MIGFutis**
+* su 19.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 
 
 
