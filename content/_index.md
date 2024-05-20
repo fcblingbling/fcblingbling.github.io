@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 19.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ke 22.5.2024 klo 20:20 *Kiovanpuiston kenttä*: **Mahti-FC Bling Bling**
 * su 26.5.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
+* ti 28.5.2024 klo 17:50 *Kiovanpuiston kenttä*: **FC Bling Bling-Ipattaret**
 
 
 
