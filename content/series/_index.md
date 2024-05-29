@@ -17,8 +17,8 @@ layout: single
 |2 | Feenix | 7 |
 |3 | TKT/Tiikerit | 7 |
 |4 | Mahti | 6 |
-|5 | FC Päätyyn Asti | 5 |
-|6 | Ipattaret | 3 |
+|5 | Ipattaret | 6 |
+|6 | FC Päätyyn Asti | 5 |
 |7 | MIGFutis | 3 |
 | **8** | **FC Bling Bling** | **0** |
 
@@ -31,7 +31,7 @@ layout: single
 * *ke 22.5.2024*:\
   Mahti – FC Bling Bling **7–0** 
 * *ti 28.5.2024*:\
-  FC Bling Bling – Ipattaret  
+  FC Bling Bling – Ipattaret **0–5** 
 * *ke 5.6.2024*:\
   Feenix – FC Bling Bling  
 * *ma 10.6.2024*:\
