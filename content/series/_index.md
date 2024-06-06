@@ -20,7 +20,7 @@ layout: single
 |5 | Ipattaret | 6 |
 |6 | FC Päätyyn Asti | 5 |
 |7 | MIGFutis | 3 |
-| **8** | **FC Bling Bling** | **0** |
+| **8** | **FC Bling Bling** | **3** |
 
 ### Pelit
 
@@ -33,7 +33,7 @@ layout: single
 * *ti 28.5.2024*:\
   FC Bling Bling – Ipattaret **0–5** 
 * *ke 5.6.2024*:\
-  Feenix – FC Bling Bling  
+  Feenix – FC Bling Bling **0–3** 
 * *ma 10.6.2024*:\
   FC Bling Bling – FC Päätyyn Asti  
 * *ma 24.6.2024*:\
@@ -58,4 +58,6 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
+|Heini T. | 2 |
 |Alisa H. | 1 |
+|Heidi H. | 1 |
