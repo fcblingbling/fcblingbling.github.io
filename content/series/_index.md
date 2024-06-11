@@ -13,7 +13,7 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Kanarianlinnut | 12 |
+|1 | FC Kanarianlinnut | 15 |
 |2 | Mahti | 9 |
 |3 | FC Päätyyn Asti | 8 |
 |4 | Feenix | 7 |
