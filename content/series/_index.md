@@ -14,13 +14,13 @@ layout: single
 | # | Joukkue | Pisteet |
 |---|---------| ---|
 |1 | FC Kanarianlinnut | 15 |
-|2 | Mahti | 9 |
-|3 | FC Päätyyn Asti | 8 |
-|4 | Feenix | 7 |
-|5 | TKT/Tiikerit | 7 |
-|6 | Ipattaret | 7 |
+|2 | Feenix | 10 |
+|3 | Ipattaret | 10 |
+|4 | FC Päätyyn Asti | 9 |
+|5 | Mahti | 9 |
+|6 | TKT/Tiikerit | 7 |
 |7 | MIGFutis | 4 |
-| **8** | **FC Bling Bling** | **3** |
+| **8** | **FC Bling Bling** | **4** |
 
 ### Pelit
 
@@ -35,7 +35,7 @@ layout: single
 * *ke 5.6.2024*:\
   Feenix – FC Bling Bling **0–3** 
 * *ma 10.6.2024*:\
-  FC Bling Bling – FC Päätyyn Asti  
+  FC Bling Bling – FC Päätyyn Asti **1–1** 
 * *ma 24.6.2024*:\
   FC Kanarianlinnut – FC Bling Bling  
 * *ti 2.7.2024*:\
@@ -61,3 +61,4 @@ layout: single
 |Heini T. | 2 |
 |Alisa H. | 1 |
 |Heidi H. | 1 |
+|Reeta K. | 1 |
