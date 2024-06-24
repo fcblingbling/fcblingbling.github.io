@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 23.6.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ma 24.6.2024 klo 17:00 *Kiovanpuiston kenttä*: **FC Kanarialinnut-FC Bling Bling**
 * ti 25.6.2024 klo 18:00 *Viinikan nurmikenttä*: **Futisreenit 18-19.30**
+* su 30.6.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 
 
 
