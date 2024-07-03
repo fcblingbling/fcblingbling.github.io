@@ -13,11 +13,11 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Kanarianlinnut | 18 |
-|2 | FC Päätyyn Asti | 12 |
-|3 | Mahti | 12 |
-|4 | Feenix | 10 |
-|5 | TKT/Tiikerit | 10 |
+|1 | FC Kanarianlinnut | 21 |
+|2 | TKT/Tiikerit | 13 |
+|3 | FC Päätyyn Asti | 12 |
+|4 | Mahti | 12 |
+|5 | Feenix | 10 |
 |6 | Ipattaret | 10 |
 |7 | MIGFutis | 4 |
 | **8** | **FC Bling Bling** | **4** |
@@ -39,7 +39,7 @@ layout: single
 * *ma 24.6.2024*:\
   FC Kanarianlinnut – FC Bling Bling **9–0** 
 * *ti 2.7.2024*:\
-  FC Bling Bling – TKT/Tiikerit  
+  FC Bling Bling – TKT/Tiikerit **0–2** 
 * *ma 8.7.2024*:\
   MIGFutis – FC Bling Bling  
 * *ma 29.7.2024*:\
