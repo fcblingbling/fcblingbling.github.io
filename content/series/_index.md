@@ -15,11 +15,11 @@ layout: single
 |---|---------| ---|
 |1 | FC Kanarianlinnut | 21 |
 |2 | Mahti | 15 |
-|3 | Feenix | 13 |
-|4 | TKT/Tiikerit | 13 |
-|5 | FC Päätyyn Asti | 12 |
+|3 | FC Päätyyn Asti | 15 |
+|4 | Feenix | 13 |
+|5 | TKT/Tiikerit | 13 |
 |6 | Ipattaret | 10 |
-|7 | MIGFutis | 4 |
+|7 | MIGFutis | 7 |
 | **8** | **FC Bling Bling** | **4** |
 
 ### Pelit
@@ -41,7 +41,7 @@ layout: single
 * *ti 2.7.2024*:\
   FC Bling Bling – TKT/Tiikerit **0–2** 
 * *ma 8.7.2024*:\
-  MIGFutis – FC Bling Bling  
+  MIGFutis – FC Bling Bling **8–5** 
 * *ma 29.7.2024*:\
   FC Bling Bling – Mahti  
 * *ke 7.8.2024*:\
@@ -58,7 +58,8 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
-|Heini T. | 2 |
-|Alisa H. | 1 |
+|Heini T. | 5 |
+|Alisa H. | 2 |
 |Heidi H. | 1 |
+|Piia L. | 1 |
 |Reeta K. | 1 |
