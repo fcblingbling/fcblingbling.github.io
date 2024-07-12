@@ -58,8 +58,8 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
-|Heini T. | 5 |
-|Alisa H. | 2 |
+|Heini T. | 4 |
+|Alisa H. | 1 |
 |Heidi H. | 1 |
 |Piia L. | 1 |
 |Reeta K. | 1 |
