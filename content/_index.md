@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 21.7.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ti 23.7.2024 klo 18:00 *Viinikan nurmikenttä*: **Futisreenit 18-19.30**
 * pe 26.7.2024 klo 17:00 *Kivikirkontie 23*: **Golf tutustuminen**
+* su 28.7.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 
 
 
