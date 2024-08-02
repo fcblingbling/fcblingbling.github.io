@@ -15,8 +15,8 @@ layout: single
 |---|---------| ---|
 |1 | FC Kanarianlinnut | 24 |
 |2 | Mahti | 21 |
-|3 | Feenix | 16 |
-|4 | FC Päätyyn Asti | 15 |
+|3 | FC Päätyyn Asti | 18 |
+|4 | Feenix | 16 |
 |5 | TKT/Tiikerit | 13 |
 |6 | Ipattaret | 10 |
 | **7** | **FC Bling Bling** | **7** |
