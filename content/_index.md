@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 11.8.2024 klo 18:00 *Raholan nurmikenttä*: **Ulkohöntsyt**
 * ti 13.8.2024 klo 18:00 *Viinikan nurmikenttä*: **Futisreenit 18-19.30**
 * ti 13.8.2024 klo 18:00 *Riihitien kenttä*: **FC Bling Bling-Feenix**
+* ke 14.8.2024 klo 18:30 *Irti Maasta Tampere*: **Kiipeily (lajikokeilu)**
 
 
 
