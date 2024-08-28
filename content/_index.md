@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 27.8.2024 klo 18:00 *Viinikan nurmikenttä*: **Futisreenit 18-19.30**
-* ti 27.8.2024 klo 20:20 *Kiovanpuiston kenttä*: **FC Bling Bling-FC Kanarialinnut**
 * to 29.8.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* su 1.9.2024 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
+* ma 2.9.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 
 
 
