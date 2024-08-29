@@ -14,11 +14,11 @@ layout: single
 | # | Joukkue | Pisteet |
 |---|---------| ---|
 |1 | FC Kanarianlinnut | 34 |
-|2 | Mahti | 30 |
+|2 | Mahti | 33 |
 |3 | FC Päätyyn Asti | 26 |
 |4 | Feenix | 22 |
-|5 | TKT/Tiikerit | 16 |
-|6 | Ipattaret | 13 |
+|5 | TKT/Tiikerit | 17 |
+|6 | Ipattaret | 14 |
 | **7** | **FC Bling Bling** | **11** |
 |8 | MIGFutis | 4 |
 
