@@ -4,6 +4,7 @@ const http = require("https");
 const printMatches = require('./print-matches')
 const parseFeed = require("./parser/feed");
 const createLottery = require("./create-lottery");
+const createTournamentTeams = require("./create-tournament");
 const { createFolder } = require("./utils")
 
 const fetchUrl = async (url, path) =>
@@ -41,7 +42,7 @@ const parse = async () => {
           // TODO: clean up this ugly mess to handle time zone diff
           const timeZoneDiff = new Date().toLocaleString('fi-FI', { timeZone: 'Europe/Helsinki', timeZoneName: 'short' }).split('+')[1];
           const utcAlarmDate = new Date(date.getTime() - 30 * 1000 * 60)
-          const alarmDate = new Date(utcAlarmDate.toISOString().replace("Z", "+0"+timeZoneDiff+":00"))
+          const alarmDate = new Date(utcAlarmDate.toISOString().replace("Z", "+0" + timeZoneDiff + ":00"))
           nextEventAlarm.day = alarmDate.getUTCDay()
           nextEventAlarm.hour = alarmDate.getUTCHours()
           nextEventAlarm.minutes = alarmDate.getUTCMinutes()
@@ -112,6 +113,10 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
   }])
 
   await createLottery(eventURLs)
+
+  if (!fs.existsSync('./content/unelma')) {
+    createTournamentTeams();
+  }
 }
 
 const copyLastPost = () => {
