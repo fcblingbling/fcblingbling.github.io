@@ -114,9 +114,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
   await createLottery(eventURLs)
 
-  if (!fs.existsSync('./content/unelma')) {
-    createTournamentTeams();
-  }
+  // if (!fs.existsSync('./content/unelma')) {
+  //   createTournamentTeams();
+  // }
 }
 
 const copyLastPost = () => {
