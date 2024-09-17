@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 16.9.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
-* ma 16.9.2024 klo 19:15 *Tesoman koulun kenttä*: **Tesoman pallo-FC Bling Bling**
 * to 19.9.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* su 22.9.2024 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
+* ma 23.9.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 
 
 
