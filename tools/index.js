@@ -86,7 +86,7 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
   await printMatches('Kuntopallo', [{
     latest: true,
-    active: true,
+    active: false,
     competitionId: 'lanhl24',
     categoryId: 'NH1',
     season: '2024',
