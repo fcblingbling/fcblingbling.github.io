@@ -55,7 +55,7 @@ ${playerDetails.map(event => {
 ### Tiimi 1: Oranssit
 ${team1.sort().map(item => `* ${item}`).join('\n')}
 
-### Tiimi 2: Keltsit
+### Tiimi 2: Sinkut
 ${event.players.sort().map(item => `* ${item}`).join('\n')}
 `
   }).join('***\n')}
