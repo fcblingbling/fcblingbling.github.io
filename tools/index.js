@@ -104,6 +104,15 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
   }])
   await printMatches('Futsal', [{
     latest: true,
+    active: true,
+    competitionId: 'lanfshl2425',
+    categoryId: 'FNH1',
+    season: '2024-25',
+    seriesName: 'Tampereen harrastefutsal',
+    shortName: 'futsal'
+  },
+  {
+    latest: false,
     active: false,
     competitionId: 'lanfshl2324',
     categoryId: 'FNH1',
