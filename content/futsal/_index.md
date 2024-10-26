@@ -36,9 +36,9 @@ layout: single
   FC Bling Bling – FC Yliveto  
 * *la 11.1.2025*:\
   FS Linnut – FC Bling Bling  
-* *su 26.1.2025*:\
+* *su 9.2.2025*:\
   FC Bling Bling – FC Varvut  
-* *su 26.1.2025*:\
+* *su 9.2.2025*:\
   FC Yliveto – FC Bling Bling  
 * *la 15.2.2025*:\
   FC Nokia/5 – FC Bling Bling  
