@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 27.10.2024 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
 * ma 28.10.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 * to 31.10.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* su 3.11.2024 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
 
 
 
