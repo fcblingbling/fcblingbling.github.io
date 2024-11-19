@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 18.11.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 * ti 19.11.2024 klo 19:00 *33480 Ylöjärvi*: **Harkkapeli**
 * to 21.11.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* ma 25.11.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 
 
 
