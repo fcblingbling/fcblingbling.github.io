@@ -81,14 +81,19 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
+    name = "Säännöt"
+    url = "rules"
+    weight = 2
+
+[[menu.main]]
     name = "Kuntopallo"
     url = "series"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Futsal"
     url = "futsal"
-    weight = 3
+    weight = 4
 
 #[[menu.main]]
 #    identifier = "samples"
