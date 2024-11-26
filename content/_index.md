@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 25.11.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 * to 28.11.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * pe 29.11.2024 klo 19:00 *Siltatien koulu*: **Säbäpeli**
+* la 30.11.2024 klo 17:00 *Äijänahteentie 36*: **Perinteiset piparitalkoot**
 
 
 
