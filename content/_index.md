@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 28.11.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * pe 29.11.2024 klo 19:00 *Siltatien koulu*: **Säbäpeli**
 * la 30.11.2024 klo 17:00 *Äijänahteentie 36*: **Perinteiset piparitalkoot**
+* su 1.12.2024 klo 11:00 *Raholan liikuntakeskus*: **Pelit klo 11:00 ja 12:40**
 
 
 
