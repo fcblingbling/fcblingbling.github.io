@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 1.12.2024 klo 11:00 *Raholan liikuntakeskus*: **Pelit klo 11:00 ja 12:40**
 * ma 2.12.2024 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 * la 7.12.2024 klo 14:10 *Raholan liikuntakeskus*: **Pelit klo 14:10 ja 15:50**
+* su 8.12.2024 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
 
 
 

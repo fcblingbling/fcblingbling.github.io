@@ -13,21 +13,21 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Acutaan asti | 0 |
-| **2** | **FC Bling Bling** | **0** |
-|3 | FC Nokia/5 | 0 |
-|4 | FC Pussycats  | 0 |
-|5 | FC Varvut | 0 |
-|6 | FC Yliveto | 0 |
-|7 | FS Linnut | 0 |
-|8 | Loiske Ladies | 0 |
+|1 | FC Nokia/5 | 6 |
+|2 | FS Linnut | 6 |
+|3 | FC Acutaan asti | 3 |
+|4 | FC Varvut | 3 |
+|5 | Loiske Ladies | 0 |
+| **6** | **FC Bling Bling** | **0** |
+|7 | FC Yliveto | 0 |
+|8 | FC Pussycats  | 0 |
 
 ### Pelit
 
 * *su 1.12.2024*:\
-  FC Acutaan asti – FC Bling Bling  
+  FC Acutaan asti – FC Bling Bling **6–2** 
 * *su 1.12.2024*:\
-  FC Bling Bling – FC Nokia/5  
+  FC Bling Bling – FC Nokia/5 **2–4** 
 * *la 7.12.2024*:\
   FC Bling Bling – FC Pussycats   
 * *la 7.12.2024*:\
@@ -58,3 +58,6 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
+|Emmi-Emilia L. | 2 |
+|Marianne T. | 1 |
+|Reeta K. | 1 |
