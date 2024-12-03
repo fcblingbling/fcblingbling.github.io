@@ -13,12 +13,12 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Nokia/5 | 6 |
-|2 | FS Linnut | 6 |
-|3 | FC Acutaan asti | 3 |
-|4 | FC Varvut | 3 |
-|5 | Loiske Ladies | 0 |
-| **6** | **FC Bling Bling** | **0** |
+|1 | FC Acutaan asti | 6 |
+|2 | FC Nokia/5 | 6 |
+|3 | FS Linnut | 6 |
+|4 | FC Varvut | 6 |
+| **5** | **FC Bling Bling** | **0** |
+|6 | Loiske Ladies | 0 |
 |7 | FC Yliveto | 0 |
 |8 | FC Pussycats  | 0 |
 
