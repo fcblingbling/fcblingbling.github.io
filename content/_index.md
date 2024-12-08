@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 7.12.2024 klo 14:10 *Raholan liikuntakeskus*: **Pelit klo 14:10 ja 15:50**
 * su 8.12.2024 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
 * to 12.12.2024 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
+* to 2.1.2025 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 
 
 
