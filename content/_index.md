@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 9.1.2025 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * la 11.1.2025 klo 10:50 *Raholan liikuntakeskus*: **Pelit klo 10:50 ja 12:30**
 * su 12.1.2025 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
+* ma 13.1.2025 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 
 
 
