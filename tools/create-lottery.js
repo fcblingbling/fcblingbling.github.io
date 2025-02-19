@@ -2,6 +2,22 @@ const fs = require("fs");
 const { createFolder, fetchUrl } = require("./utils")
 
 module.exports = async (urls) => {
+  const getRandomTeams = (teamCount, players) => {
+    const isEvenDayFactor = new Date().getDate() % 2 === 0 ? 1 : -1
+    const availablePlayers = [...players];
+    availablePlayers.sort((a, b) => (a < b ? -1 : 1) * isEvenDayFactor);
+
+    const teams = [...new Array(teamCount)].map(() => [])
+    let teamIndex = 0;
+    while (availablePlayers.length) {
+      const index = Math.floor(Math.random() * (availablePlayers.length - 1));
+      teams[teamIndex].push(availablePlayers[index])
+      availablePlayers.splice(index, 1)
+      teamIndex = (teamIndex + 1) % teamCount
+    }
+
+    return teams
+  };
   const playerPages = await Promise.all(urls.map(async item => fetchUrl(item)))
   const playerDetails = playerPages.map(item => {
     const startIndex = item.indexOf('enroll_1')
@@ -31,7 +47,7 @@ module.exports = async (urls) => {
   createFolder(`./content/lottery`)
 
   const currentTime = new Date().toLocaleString('fi-FI', {timeZone: 'Europe/Helsinki' })
-
+  const firstTime = new Date(playerDetails[0].when)
 
   let text = `---
 title: Marikan arvontakone
@@ -39,24 +55,38 @@ comments: false
 ---
 Arvonta suoritettu ${currentTime}
 
-${playerDetails.map(event => {
+${playerDetails.filter(
+  event => (new Date(event.when).getTime() - firstTime.getTime()) / 1000 * 60 * 60 < 24
+).map(event => {
     const date = new Date(event.when)
-    const team1 = [];
-    while (team1.length < event.players.length) {
-      const index = Math.floor(Math.random() * (event.players.length - 1));
-      team1.push(event.players[index])
-      event.players.splice(index, 1)
-    }
-
+    const twoTeams = getRandomTeams(2, event.players)
+    const threeTeams = getRandomTeams(3, event.players)
+  
     return `
 
 ## ${date.getDate()}.${date.getMonth() + 1}. ${event.title}
 
-### Tiimi 1: Oranssit
-${team1.sort().map(item => `* ${item}`).join('\n')}
+### Kahden tiimin jaot
 
-### Tiimi 2: Sinkut
-${event.players.sort().map(item => `* ${item}`).join('\n')}
+#### Tiimi 1: Orkut
+${twoTeams[0].sort().map(item => `* ${item}`).join('\n')}
+
+#### Tiimi 2: Sinkut
+${twoTeams[1].sort().map(item => `* ${item}`).join('\n')}
+
+${threeTeams[2].length > 1 ? `
+### Kolmen tiimin jaot
+
+#### Tiimi 1: Orkut
+${threeTeams[0].sort().map(item => `* ${item}`).join('\n')}
+
+#### Tiimi 2: Sinkut
+${threeTeams[1].sort().map(item => `* ${item}`).join('\n')}
+
+#### Tiimi 3: Keltsit
+${threeTeams[2].sort().map(item => `* ${item}`).join('\n')}
+`: ''}
+
 `
   }).join('***\n')}
 `
