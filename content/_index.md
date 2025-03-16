@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 15.3.2025 klo 16:30 *Lamminpään ulkoilumaja*: **Saunailta**
 * su 16.3.2025 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
 * ma 17.3.2025 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
+* to 20.3.2025 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 
 
 
