@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 31.3.2025 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 * to 3.4.2025 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * su 6.4.2025 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
+* ma 7.4.2025 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
 
 
 
