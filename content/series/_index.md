@@ -4,64 +4,50 @@ comments: false
 layout: single
 ---
 
-2024 | [2023](/series/2023)
+2025 | [2024](/series/2024) | [2023](/series/2023)
 
 
- FC Bling Bling osallistuu kaudella 2024 palloliiton [Tampereen kuntopallo -sarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl24/tables).
+ FC Bling Bling osallistuu kaudella 2025 palloliiton [Tampereen kuntopallo -sarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl25/tables).
 
 
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Kanarianlinnut | 34 |
-|2 | Mahti | 33 |
-|3 | FC Päätyyn Asti | 26 |
-|4 | Feenix | 22 |
-|5 | TKT/Tiikerit | 17 |
-|6 | Ipattaret | 14 |
-| **7** | **FC Bling Bling** | **11** |
-|8 | MIGFutis | 4 |
+| **1** | **FC Bling Bling** | **0** |
+|2 | FC Haka j./Naiset | 0 |
+|3 | FC Pussycats | 0 |
+|4 | FC WNBa stars | 0 |
+|5 | Vanha Kööri | 0 |
 
 ### Pelit
 
-* *ti 7.5.2024*:\
-  TKT/Tiikerit – FC Bling Bling **4–1** 
-* *ma 13.5.2024*:\
-  FC Bling Bling – MIGFutis **0–2** 
-* *ke 22.5.2024*:\
-  Mahti – FC Bling Bling **7–0** 
-* *ti 28.5.2024*:\
-  FC Bling Bling – Ipattaret **0–5** 
-* *ke 5.6.2024*:\
-  Feenix – FC Bling Bling **0–3** 
-* *ma 10.6.2024*:\
-  FC Bling Bling – FC Päätyyn Asti **1–1** 
-* *ma 24.6.2024*:\
-  FC Kanarianlinnut – FC Bling Bling **9–0** 
-* *ti 2.7.2024*:\
-  FC Bling Bling – TKT/Tiikerit **0–2** 
-* *ma 8.7.2024*:\
-  MIGFutis – FC Bling Bling **0–3** 
-* *ma 29.7.2024*:\
-  FC Bling Bling – Mahti **0–9** 
-* *ke 7.8.2024*:\
-  Ipattaret – FC Bling Bling **3–4** 
-* *ti 13.8.2024*:\
-  FC Bling Bling – Feenix **0–1** 
-* *ma 19.8.2024*:\
-  FC Päätyyn Asti – FC Bling Bling **1–1** 
-* *ti 27.8.2024*:\
-  FC Bling Bling – FC Kanarianlinnut **0–5** 
+* *ma 12.5.2025*:\
+  Vanha Kööri – FC Bling Bling  
+* *ke 21.5.2025*:\
+  FC Bling Bling – FC WNBa stars  
+* *ti 27.5.2025*:\
+  FC Pussycats – FC Bling Bling  
+* *to 5.6.2025*:\
+  FC Bling Bling – FC Haka j./Naiset  
+* *to 26.6.2025*:\
+  FC Bling Bling – Vanha Kööri  
+* *ke 2.7.2025*:\
+  FC WNBa stars – FC Bling Bling  
+* *ma 28.7.2025*:\
+  FC Bling Bling – FC Pussycats  
+* *to 7.8.2025*:\
+  FC Haka j./Naiset – FC Bling Bling  
+* *ti 19.8.2025*:\
+  Vanha Kööri – FC Bling Bling  
+* *ke 27.8.2025*:\
+  FC Bling Bling – FC WNBa stars  
+* *ma 1.9.2025*:\
+  FC Pussycats – FC Bling Bling  
+* *ti 16.9.2025*:\
+  FC Bling Bling – FC Haka j./Naiset  
 
 ### Maalit
 
 
 | Pelaaja | Maalit |
 |---| ---|
-|Heini T. | 4 |
-|Reeta K. | 4 |
-|Alisa H. | 1 |
-|Elli Y. | 1 |
-|Heidi H. | 1 |
-|Marianne T. | 1 |
-|Piia L. | 1 |

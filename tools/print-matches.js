@@ -13,11 +13,11 @@ const addMatches = async (latest, competitionId, categoryId, season, seriesName)
 
   const printMatch = match => {
     const date = new Date(match.date)
-    return `* *${date.toLocaleString('fi-FI', {weekday: 'short'})} ${date.toLocaleDateString('fi-FI')}*:\\\n  ${match.team_A_name} – ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
+    return `* *${date.toLocaleString('fi-FI', { weekday: 'short' })} ${date.toLocaleDateString('fi-FI')}*:\\\n  ${match.team_A_name} – ${match.team_B_name} ${match.fs_A ? `**${match.fs_A}–${match.fs_B}**` : ''} `
   }
   const printRow = team => `|${team.current_standing} | ${team.team_name} | ${team.points} |`
   const printEmphasizedRow = team => `| **${team.current_standing}** | **${team.team_name}** | **${team.points}** |`
-  
+
   text += `\n| # | Joukkue | Pisteet |\n`
   text += `|---|---------| ---|\n`
   text += matches.status.map(team => team.team_name === 'FC Bling Bling' ? printEmphasizedRow(team) : printRow(team)).join('\n')
@@ -45,7 +45,7 @@ module.exports = async (
       console.log(`Season ${season.season} not active, skipping fetch`)
       continue
     }
-    const { latest, competitionId, categoryId, season: seasonName, shortName, seriesName } = season;
+    const { latest, competitionId, categoryId, season: seasonName, shortName, seriesName } = season;
     const matches = await addMatches(latest, competitionId, categoryId, seasonName, seriesName)
     if (!matches) {
       break
@@ -57,8 +57,8 @@ layout: single
 ---
 
 ${seasons.map(item => season.competitionId === item.competitionId ?
-  item.season :
-  `[${item.season}](/${shortName}/${item.latest ? '' : item.season})`).join(' | ')}
+      item.season :
+      `[${item.season}](/${shortName}/${item.latest ? '' : item.season})`).join(' | ')}
 `
 
     text = `${text}\n\n ${matches}`
@@ -68,6 +68,6 @@ ${seasons.map(item => season.competitionId === item.competitionId ?
       fs.writeFileSync(`./content/${shortName}/${seasonName}.md`, text)
     }
 
-    }
+  }
 
 }

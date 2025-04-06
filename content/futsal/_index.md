@@ -13,13 +13,13 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FS Linnut | 27 |
-|2 | FC Varvut | 25 |
-|3 | FC Acutaan asti | 22 |
-|4 | FC Nokia/5 | 16 |
-|5 | FC Yliveto | 13 |
-|6 | Loiske Ladies | 9 |
-| **7** | **FC Bling Bling** | **4** |
+|1 | FC Varvut | 37 |
+|2 | FS Linnut | 36 |
+|3 | FC Acutaan asti | 29 |
+|4 | FC Yliveto | 20 |
+|5 | FC Nokia/5 | 19 |
+|6 | Loiske Ladies | 15 |
+| **7** | **FC Bling Bling** | **7** |
 |8 | FC Pussycats  | 0 |
 
 ### Pelit
@@ -45,23 +45,23 @@ layout: single
 * *la 15.2.2025*:\
   FC Bling Bling – FC Acutaan asti **1–6** 
 * *su 9.3.2025*:\
-  FC Bling Bling – Loiske Ladies  
+  FC Bling Bling – Loiske Ladies **1–2** 
 * *su 9.3.2025*:\
-  FC Pussycats  – FC Bling Bling  
+  FC Pussycats  – FC Bling Bling **0–3** 
 * *su 30.3.2025*:\
-  FC Bling Bling – FS Linnut  
+  FC Bling Bling – FS Linnut **0–8** 
 * *su 30.3.2025*:\
-  FC Varvut – FC Bling Bling  
+  FC Varvut – FC Bling Bling **8–0** 
 
 ### Maalit
 
 
 | Pelaaja | Maalit |
 |---| ---|
-|Emmi-Emilia L. | 4 |
+|Emmi-Emilia L. | 6 |
 |Reeta K. | 3 |
-|Heidi S. | 1 |
+|Heidi S. | 2 |
+|Marianne T. | 2 |
 |Leeni R. | 1 |
 |Maiju A. | 1 |
-|Marianne T. | 1 |
 |Marika M. | 1 |
