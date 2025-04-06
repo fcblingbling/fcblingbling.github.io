@@ -86,6 +86,15 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
   await printMatches('Kuntopallo', [{
     latest: true,
+    active: true,
+    competitionId: 'lanhl25',
+    categoryId: 'NH1',
+    season: '2025',
+    seriesName: 'Tampereen kuntopallo',
+    shortName: 'series'
+  },
+  {
+    latest: false,
     active: false,
     competitionId: 'lanhl24',
     categoryId: 'NH1',
@@ -104,7 +113,7 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
   }])
   await printMatches('Futsal', [{
     latest: true,
-    active: true,
+    active: false,
     competitionId: 'lanfshl2425',
     categoryId: 'FNH1',
     season: '2024-25',

@@ -1,7 +1,6 @@
 baseurl = "https://fcblingbling.fi"
 DefaultContentLanguage = "fi"
 title = "FC Bling Bling"
-theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
@@ -11,23 +10,27 @@ pygmentsCodefencesGuessSyntax = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
+[module]
+[[module.imports]]
+path = 'github.com/halogenica/beautifulhugo'
+
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä meiningillä."
-  mainSections = ["post"]
-  logo = "img/avatar-icon.png" # Expecting square dimensions
-  favicon = "img/favicon.ico"
-  dateFormat = "2.1.2006"
-  commit = false
-  rss = false
-  comments = false
-  readingTime = false
-  wordCount = false
-  useHLJS = false
-  socialShare = false
-  delayDisqus = false
-  showRelatedPosts = false
-  hideAuthor = true
+subtitle = "FC Bling Bling on tamperelainen naisten futisjoukkue. Höntsäämme hyvällä meiningillä."
+mainSections = ["post"]
+logo = "img/avatar-icon.png"                                                                       # Expecting square dimensions
+favicon = "img/favicon.ico"
+dateFormat = "2.1.2006"
+commit = false
+rss = false
+comments = false
+readingTime = false
+wordCount = false
+useHLJS = false
+socialShare = false
+delayDisqus = false
+showRelatedPosts = false
+hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -42,12 +45,12 @@ pygmentsCodefencesGuessSyntax = true
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
-[Author]
-  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "FC Bling Bling ry"
+[Params.author]
+# Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+name = "FC Bling Bling ry"
 #  website = "fcblingbling.fi"
-  email = "fcblingbling@gmail.com"
-  facebook = "fcblingbling"
+email = "fcblingbling@gmail.com"
+facebook = "fcblingbling"
 #  github = "username"
 #  gitlab = "username"
 #  bitbucket = "username"
@@ -57,7 +60,7 @@ pygmentsCodefencesGuessSyntax = true
 #  xing = "username"
 #  stackoverflow = "users/XXXXXXX/username"
 #  snapchat = "username"
-  instagram = "fcblingbling"
+instagram = "fcblingbling"
 #  youtube = "user/username" # or channel/channelname
 #  soundcloud = "username"
 #  spotify = "username"
@@ -76,24 +79,24 @@ pygmentsCodefencesGuessSyntax = true
 #  strava = "userid"
 
 [[menu.main]]
-    name = "Uutiset"
-    url = "feed"
-    weight = 1
+name = "Uutiset"
+url = "feed"
+weight = 1
 
 [[menu.main]]
-    name = "Säännöt"
-    url = "rules"
-    weight = 2
+name = "Säännöt"
+url = "rules"
+weight = 2
 
 [[menu.main]]
-    name = "Kuntopallo"
-    url = "series"
-    weight = 3
+name = "Kuntopallo"
+url = "series"
+weight = 3
 
 [[menu.main]]
-    name = "Futsal"
-    url = "futsal"
-    weight = 4
+name = "Futsal"
+url = "futsal"
+weight = 4
 
 #[[menu.main]]
 #    identifier = "samples"
