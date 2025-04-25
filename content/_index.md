@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 24.4.2025 klo 18:30 *Tesoman palloiluhalli*: **Kuntosali**
 * su 27.4.2025 klo 17:00 *Tesoman koulutalo*: **Säbäreenit**
 * ma 28.4.2025 klo 17:30 *Hyhkyn koulutalo*: **Futsalreenit**
+* ma 12.5.2025 klo 17:30 *Tapiolanpuiston kenttä*: **Vanha Kööri-FC Bling Bling**
 
 
 
