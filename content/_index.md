@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 12.5.2025 klo 17:30 *Tapiolanpuiston kenttä*: **Vanha Kööri-FC Bling Bling**
-* ma 12.5.2025 klo 18:00 *Raholan nurmikenttä*: **Futishöntsyt**
 * su 18.5.2025 klo 18:00 *Raholan nurmikenttä*: **Futishöntsyt**
+* ma 19.5.2025 klo 18:00 *Raholan nurmikenttä*: **Futishöntsyt**
+* ke 21.5.2025 klo 17:30 *Tapiolanpuiston kenttä*: **FC Bling Bling- FC WNBa stars**
 
 
 
