@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 25.5.2025 klo 18:00 *Raholan nurmikenttä*: **Futishöntsyt**
 * ti 27.5.2025 klo 18:20 *Tapiolanpuiston kenttä*: **FC Pussycats -FC Bling Bling**
 * ti 27.5.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
+* ti 3.6.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 
 
 
