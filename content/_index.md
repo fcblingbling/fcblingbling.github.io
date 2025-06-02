@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 1.6.2025 klo 17:00 *Raholan nurmikenttä*: **Futishöntsyt**
 * ti 3.6.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 * to 5.6.2025 klo 18:00 *Riihitien kenttä*: **FC Bling Bling -FC Haka j. Naiset**
+* pe 6.6.2025 klo 18:00 *Lielahden sauna*: **FC Bling Bling ry:n vuosikokous**
 
 
 
