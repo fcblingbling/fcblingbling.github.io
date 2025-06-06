@@ -1,7 +1,7 @@
 name: scheduled deploy
 on:
   schedule:
-    - cron: "30 14 * * 4" # Runs at 00:00
+    - cron: "30 14 * * 5" # Runs at 00:00
 permissions:
   contents: write
   pages: write
