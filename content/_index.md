@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 15.6.2025 klo 18:00 *Raholan nurmikenttä*: **Futishöntsyt**
 * ti 17.6.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 * su 22.6.2025 klo 17:00 *Raholan nurmikenttä*: **Futishöntsyt**
+* ti 24.6.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 
 
 
