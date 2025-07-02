@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 1.7.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 * ke 2.7.2025 klo 17:00 *Riihitien kenttä*: **FC WNBa stars- FC Bling Bling**
 * su 6.7.2025 klo 17:00 *Raholan nurmikenttä*: **Futishöntsyt**
+* ti 8.7.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 
 
 
