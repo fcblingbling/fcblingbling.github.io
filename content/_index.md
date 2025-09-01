@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 31.8.2025 klo 17:00 *Raholan nurmikenttä*: **Futishöntsyt**
 * ma 1.9.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ma 1.9.2025 klo 18:00 *Riihitien kenttä*: **FC Pussycats -FC Bling Bling**
+* ti 2.9.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
