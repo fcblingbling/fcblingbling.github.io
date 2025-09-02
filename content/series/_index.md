@@ -13,11 +13,11 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Vanha Kööri | 28 |
+|1 | Vanha Kööri | 31 |
 |2 | FC Haka j./Naiset | 24 |
 |3 | FC WNBa stars | 12 |
 |4 | FC Pussycats | 7 |
-| **5** | **FC Bling Bling** | **4** |
+| **5** | **FC Bling Bling** | **7** |
 
 ### Pelit
 
@@ -42,7 +42,7 @@ layout: single
 * *ke 27.8.2025*:\
   FC Bling Bling – FC WNBa stars **1–0** 
 * *ma 1.9.2025*:\
-  FC Pussycats – FC Bling Bling  
+  FC Pussycats – FC Bling Bling **1–2** 
 * *ti 16.9.2025*:\
   FC Bling Bling – FC Haka j./Naiset  
 
@@ -54,3 +54,5 @@ layout: single
 |Emmaleena K. | 2 |
 |Annika A. | 1 |
 |Emmi-Emilia L. | 1 |
+|Emmi-Emilia Å. | 1 |
+|Maiju A. | 1 |
