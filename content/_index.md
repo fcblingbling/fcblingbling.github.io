@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 9.9.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
-* ti 9.9.2025 klo 18:30 *Viinikan nurmikenttä*: **Futisreenit klo 18.30-20.00**
 * to 11.9.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
+* la 13.9.2025 klo 19:00 *Lamminpään ulkoilumaja*: **Saunailta**
+* ma 15.9.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 
 
 
