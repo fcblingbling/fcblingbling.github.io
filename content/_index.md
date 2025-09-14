@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 13.9.2025 klo 19:00 *Lamminpään ulkoilumaja*: **Saunailta**
 * ma 15.9.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ti 16.9.2025 klo 17:30 *Tapiolanpuiston kenttä*: **FC Bling Bling - FC Haka j. Naiset**
+* ti 16.9.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
