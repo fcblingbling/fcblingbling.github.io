@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 16.9.2025 klo 17:30 *Tapiolanpuiston kenttä*: **FC Bling Bling - FC Haka j. Naiset**
-* ti 16.9.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 * to 18.9.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
+* ma 22.9.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
+* ti 23.9.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
