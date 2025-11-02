@@ -13,11 +13,11 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Vanha Kööri | 0 |
-|2 | FC Haka j./Naiset | 0 |
-|3 | FC WNBa stars | 0 |
-|4 | FC Pussycats | 0 |
-| **5** | **FC Bling Bling** | **0** |
+|1 | Vanha Kööri | 34 |
+|2 | FC Haka j./Naiset | 27 |
+|3 | FC WNBa stars | 12 |
+|4 | FC Pussycats | 7 |
+| **5** | **FC Bling Bling** | **7** |
 
 ### Pelit
 
