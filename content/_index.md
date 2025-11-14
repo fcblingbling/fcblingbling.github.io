@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 13.11.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 * ma 17.11.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ti 18.11.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
+* to 20.11.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 
 
 
