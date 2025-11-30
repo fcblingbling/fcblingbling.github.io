@@ -13,12 +13,12 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-| **1** | **FC Bling Bling** | **0** |
-|2 | FC Fun | 0 |
-|3 | FC Pussycats  | 0 |
-|4 | FC Päätyyn asti | 0 |
-|5 | FC Tesma | 0 |
-|6 | Ilves/Pohjoistuuli | 0 |
+|1 | Ilves/Pohjoistuuli | 6 |
+|2 | FC Tesma | 3 |
+| **3** | **FC Bling Bling** | **0** |
+|4 | FC Fun | 0 |
+|5 | FC Päätyyn asti | 0 |
+|6 | FC Pussycats  | 0 |
 |7 | YIlves Naiset Harraste | 0 |
 
 ### Pelit
