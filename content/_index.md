@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 30.11.2025 klo 11:50 *Raholan liikuntakeskus*: **FC Bling Bling  11:50  FC Pussycats / FC Päätyyn asti  13:30  FC Bling Bling**
-* su 30.11.2025 klo 17:00 *Tesoman koulutalo*: **Säbää**
 * ma 1.12.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
+* ti 2.12.2025 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
+* to 4.12.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 
 
 
