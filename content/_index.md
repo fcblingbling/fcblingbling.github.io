@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 8.12.2025 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ti 9.12.2025 klo 17:30 *Tesoman koulutalo*: **Futsalreenit**
 * to 11.12.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
+* pe 12.12.2025 klo 18:00 *Karjakontie 14*: **Piparitalkoot**
 
 
 
