@@ -86,6 +86,8 @@ ${threeTeams[2].sort().map(item => `* ${item}`).join('\n')}
   let text = `---
 title: Marikan arvontakone
 comments: false
+aliases:
+  - arvontakone
 ---
 Arvonta suoritettu ${currentTime}
 
