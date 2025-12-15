@@ -13,11 +13,11 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Ilves/Pohjoistuuli | 6 |
-|2 | FC Fun | 4 |
-|3 | FC Päätyyn asti | 4 |
-|4 | FC Tesma | 3 |
-| **5** | **FC Bling Bling** | **3** |
+|1 | Ilves/Pohjoistuuli | 9 |
+|2 | FC Tesma | 7 |
+| **3** | **FC Bling Bling** | **6** |
+|4 | FC Fun | 5 |
+|5 | FC Päätyyn asti | 4 |
 |6 | YIlves Naiset Harraste | 0 |
 |7 | FC Pussycats  | 0 |
 
@@ -28,9 +28,9 @@ layout: single
 * *su 30.11.2025*:\
   FC Päätyyn asti – FC Bling Bling **5–0** 
 * *su 14.12.2025*:\
-  FC Tesma – FC Bling Bling  
+  FC Tesma – FC Bling Bling **2–1** 
 * *su 14.12.2025*:\
-  FC Bling Bling – Ilves/Pohjoistuuli  
+  FC Bling Bling – Ilves/Pohjoistuuli **2–1** 
 * *la 3.1.2026*:\
   FC Bling Bling – FC Fun  
 * *la 3.1.2026*:\
@@ -53,4 +53,5 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
-|Reeta K. | 1 |
+|Outi P. | 2 |
+|Reeta K. | 2 |

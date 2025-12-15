@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 14.12.2025 klo 11:50 *Raholan liikuntakeskus*: **FC Tesma  11:50  FC Bling Bling / FC Bling Bling  13:30  Ilves Pohjoistuuli**
-* su 14.12.2025 klo 17:00 *Tesoman koulutalo*: **Säbä**
 * to 18.12.2025 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
+* la 3.1.2026 klo 11:00 *Pirkkahalli D2*: **FC Bling Bling  11:00  FC Fun /   YIlves Naiset Harraste  12:40  FC Bling Bling**
+* to 8.1.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 
 
 
