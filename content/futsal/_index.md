@@ -13,13 +13,13 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Päätyyn asti | 10 |
-|2 | Ilves/Pohjoistuuli | 9 |
-|3 | FC Tesma | 7 |
-| **4** | **FC Bling Bling** | **6** |
-|5 | FC Fun | 5 |
-|6 | FC Pussycats  | 3 |
-|7 | YIlves Naiset Harraste | 0 |
+|1 | FC Päätyyn asti | 13 |
+|2 | FC Fun | 11 |
+|3 | FC Tesma | 10 |
+|4 | Ilves/Pohjoistuuli | 9 |
+| **5** | **FC Bling Bling** | **6** |
+|6 | YIlves Naiset Harraste | 3 |
+|7 | FC Pussycats  | 3 |
 
 ### Pelit
 
@@ -32,9 +32,9 @@ layout: single
 * *su 14.12.2025*:\
   FC Bling Bling – Ilves/Pohjoistuuli **2–1** 
 * *la 3.1.2026*:\
-  FC Bling Bling – FC Fun  
+  FC Bling Bling – FC Fun **0–1** 
 * *la 3.1.2026*:\
-  YIlves Naiset Harraste – FC Bling Bling  
+  YIlves Naiset Harraste – FC Bling Bling **2–0** 
 * *su 18.1.2026*:\
   FC Bling Bling – FC Päätyyn asti  
 * *su 18.1.2026*:\

@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 3.1.2026 klo 11:00 *Pirkkahalli D2*: **FC Bling Bling  11:00  FC Fun /   YIlves Naiset Harraste  12:40  FC Bling Bling**
 * to 8.1.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 * su 11.1.2026 klo 17:00 *Tesoman koulutalo*: **Säbä**
+* ma 12.1.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 
 
 
