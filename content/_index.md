@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 8.1.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 * su 11.1.2026 klo 17:00 *Tesoman koulutalo*: **Säbä**
 * ma 12.1.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
+* ti 13.1.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
