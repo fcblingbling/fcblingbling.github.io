@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 12.1.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ti 13.1.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 * to 15.1.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
+* su 18.1.2026 klo 13:30 *Raholan liikuntakeskus*: **FC Bling Bling  13:30  FC Päätyyn asti /FC Pussycats  15:10  FC Bling Bling**
 
 
 
