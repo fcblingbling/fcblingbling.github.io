@@ -14,12 +14,12 @@ layout: single
 | # | Joukkue | Pisteet |
 |---|---------| ---|
 |1 | FC Päätyyn asti | 22 |
-|2 | Ilves/Pohjoistuuli | 12 |
-|3 | FC Fun | 12 |
-|4 | FC Tesma | 10 |
+|2 | Ilves/Pohjoistuuli | 16 |
+|3 | FC Tesma | 13 |
+|4 | FC Fun | 12 |
 | **5** | **FC Bling Bling** | **7** |
 |6 | FC Pussycats  | 5 |
-|7 | YIlves Naiset Harraste | 3 |
+|7 | YIlves Naiset Harraste | 4 |
 
 ### Pelit
 
