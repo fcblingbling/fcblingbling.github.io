@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 26.1.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ti 27.1.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 * to 29.1.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
+* la 31.1.2026 klo 9:00 *Pihkalantie*: **‼️ILMOITTAUTUMINEN PÄÄTTYNYT‼️Blingin 10-vuotisjuhlaolympiadi Vierumäellä 31.1.-1.2.2026**
 
 
 
