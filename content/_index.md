@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 1.2.2026 klo 19:00 *Lamminpään koulu*: **Säbää**
 * ma 2.2.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ti 3.2.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
+* ke 4.2.2026 klo 18:00 *Ikurin Virelä*: **Ikurin jääveistospolku**
 
 
 
