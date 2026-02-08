@@ -14,8 +14,8 @@ layout: single
 | # | Joukkue | Pisteet |
 |---|---------| ---|
 |1 | FC Päätyyn asti | 22 |
-|2 | Ilves/Pohjoistuuli | 16 |
-|3 | FC Tesma | 13 |
+|2 | Ilves/Pohjoistuuli | 19 |
+|3 | FC Tesma | 19 |
 |4 | FC Fun | 12 |
 | **5** | **FC Bling Bling** | **7** |
 |6 | FC Pussycats  | 5 |
@@ -40,7 +40,7 @@ layout: single
 * *su 18.1.2026*:\
   FC Pussycats  – FC Bling Bling **1–1** 
 * *la 7.2.2026*:\
-  FC Bling Bling – FC Tesma  
+  FC Bling Bling – FC Tesma **0–2** 
 * *la 7.2.2026*:\
   Ilves/Pohjoistuuli – FC Bling Bling  
 * *su 8.3.2026*:\

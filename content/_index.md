@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 7.2.2026 klo 11:00 *Raholan liikuntakeskus*: **FC Bling Bling  11:00  FC Tesma / Ilves Pohjoistuuli  12:40  FC Bling Bling**
 * su 8.2.2026 klo 19:00 *Lamminpään koulu*: **Säbää**
 * ma 9.2.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
+* ti 10.2.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
