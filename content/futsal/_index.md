@@ -15,9 +15,9 @@ layout: single
 |---|---------| ---|
 |1 | FC Päätyyn asti | 32 |
 |2 | Ilves/Pohjoistuuli | 26 |
-|3 | FC Tesma | 19 |
-|4 | FC Fun | 12 |
-|5 | YIlves Naiset Harraste | 10 |
+|3 | FC Tesma | 22 |
+|4 | FC Fun | 15 |
+|5 | YIlves Naiset Harraste | 13 |
 | **6** | **FC Bling Bling** | **7** |
 |7 | FC Pussycats  | 5 |
 
@@ -44,7 +44,7 @@ layout: single
 * *la 7.2.2026*:\
   Ilves/Pohjoistuuli – FC Bling Bling **2–1** 
 * *su 8.3.2026*:\
-  FC Fun – FC Bling Bling  
+  FC Fun – FC Bling Bling **3–2** 
 * *su 8.3.2026*:\
   FC Bling Bling – YIlves Naiset Harraste **1–2** 
 
@@ -53,7 +53,7 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
-|Reeta K. | 3 |
+|Reeta K. | 5 |
 |Outi P. | 2 |
 |Amanda A. | 1 |
 |Maiju A. | 1 |
