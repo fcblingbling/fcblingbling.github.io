@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 8.3.2026 klo 15:10 *Raholan liikuntakeskus*: **FC Fun  15:10  FC Bling Bling / FC Bling Bling  16:00  YIlves Naiset Harraste**
-* su 8.3.2026 klo 19:00 *Lamminpään koulu*: **Säbää**
 * ma 9.3.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
+* ti 10.3.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
+* to 12.3.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 
 
 
