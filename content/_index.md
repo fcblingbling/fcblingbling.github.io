@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* la 14.3.2026 klo 18:00 *Lamminpään ulkoilumaja*: **Saunailta**
 * su 15.3.2026 klo 19:00 *Lamminpään koulu*: **Säbää**
 * ma 16.3.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
+* ti 17.3.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
