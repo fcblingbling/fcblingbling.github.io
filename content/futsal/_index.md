@@ -19,12 +19,12 @@ layout: single
 |4 | FC Fun | 15 |
 |5 | YIlves Naiset Harraste | 13 |
 | **6** | **FC Bling Bling** | **7** |
-|7 | FC Pussycats  | 5 |
+|7 | FC Pussycats | 5 |
 
 ### Pelit
 
 * *su 30.11.2025*:\
-  FC Bling Bling – FC Pussycats  **1–0** 
+  FC Bling Bling – FC Pussycats **1–0** 
 * *su 30.11.2025*:\
   FC Päätyyn asti – FC Bling Bling **5–0** 
 * *su 14.12.2025*:\
@@ -38,7 +38,7 @@ layout: single
 * *su 18.1.2026*:\
   FC Bling Bling – FC Päätyyn asti **0–9** 
 * *su 18.1.2026*:\
-  FC Pussycats  – FC Bling Bling **1–1** 
+  FC Pussycats – FC Bling Bling **1–1** 
 * *la 7.2.2026*:\
   FC Bling Bling – FC Tesma **0–2** 
 * *la 7.2.2026*:\
