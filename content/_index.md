@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 14.4.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 * to 16.4.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 * su 19.4.2026 klo 19:00 *Lamminpään koulu*: **Säbää**
+* ma 20.4.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 
 
 
