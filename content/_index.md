@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 23.4.2026 klo 18:30 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri**
 * ma 27.4.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
 * ma 27.4.2026 klo 18:45 *Rajaportin sauna*: **Rajaportille saunomaan**
+* ti 28.4.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 
 
 
