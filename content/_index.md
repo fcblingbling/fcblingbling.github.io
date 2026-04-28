@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 27.4.2026 klo 17:30 *Hyhkyn koulutalo*: **Reenit**
-* ma 27.4.2026 klo 18:45 *Rajaportin sauna*: **Rajaportille saunomaan**
 * ti 28.4.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
+* ma 4.5.2026 klo 18:00 *Riihitien kenttä*: **Two Left Legs vs FC Bling Bling**
+* ti 12.5.2026 klo 21:10 *Kiovanpuiston kenttä*: **FC Bling Bling vs Pipara**
 
 
 
