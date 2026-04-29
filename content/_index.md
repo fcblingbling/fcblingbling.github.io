@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 28.4.2026 klo 17:30 *Tesoman koulutalo*: **Futsal reenit**
 * ma 4.5.2026 klo 18:00 *Riihitien kenttä*: **Two Left Legs vs FC Bling Bling**
 * ti 12.5.2026 klo 21:10 *Kiovanpuiston kenttä*: **FC Bling Bling vs Pipara**
+* ke 13.5.2026 klo 17:30 *Lamminpään ulkoilumaja*: **Vuosikokous+saunailta**
 
 
 
