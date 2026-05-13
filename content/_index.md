@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 12.5.2026 klo 21:10 *Kiovanpuiston kenttä*: **FC Bling Bling vs Pipara**
 * ke 13.5.2026 klo 17:30 *Lamminpään ulkoilumaja*: **Vuosikokous+saunailta**
 * ti 19.5.2026 klo 18:00 *Riihitien kenttä*: **FC WNBa stars vs FC Bling Bling**
+* ma 1.6.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit**
 
 
 
