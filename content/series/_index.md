@@ -4,10 +4,10 @@ comments: false
 layout: single
 ---
 
-2026-27 | [2025](/series/2025) | [2024](/series/2024) | [2023](/series/2023)
+2026 | [2025](/series/2025) | [2024](/series/2024) | [2023](/series/2023)
 
 
- FC Bling Bling osallistuu kaudella 2026-27 palloliiton [Tampereen kuntopallo -sarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl26/tables).
+ FC Bling Bling osallistuu kaudella 2026 palloliiton [Tampereen kuntopallo -sarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl26/tables).
 
 
 ### Taulukko

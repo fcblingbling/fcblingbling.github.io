@@ -89,7 +89,7 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
     active: true,
     competitionId: 'lanhl26',
     categoryId: 'NH1',
-    season: '2026-27',
+    season: '2026',
     seriesName: 'Tampereen kuntopallo',
     shortName: 'series'
   },
