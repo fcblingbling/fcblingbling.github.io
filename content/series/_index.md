@@ -4,56 +4,58 @@ comments: false
 layout: single
 ---
 
-2025 | [2024](/series/2024) | [2023](/series/2023)
+2026-27 | [2025](/series/2025) | [2024](/series/2024) | [2023](/series/2023)
 
 
- FC Bling Bling osallistuu kaudella 2025 palloliiton [Tampereen kuntopallo -sarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl25/tables).
+ FC Bling Bling osallistuu kaudella 2026-27 palloliiton [Tampereen kuntopallo -sarjaan](https://tulospalvelu.palloliitto.fi/category/NH1!lanhl26/tables).
 
 
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Vanha Kööri | 34 |
-|2 | FC Haka j./Naiset | 27 |
-|3 | FC WNBa stars | 12 |
-|4 | FC Pussycats | 7 |
-| **5** | **FC Bling Bling** | **7** |
+|1 | Pipara | 12 |
+|2 | FC Taktinen Paniikki | 12 |
+|3 | Two Left Legs | 9 |
+|4 | FC WNBa stars | 7 |
+|5 | FC Kappelin Pimut | 3 |
+|6 | FC Pussycats | 2 |
+|7 | FC Satakunnankatumus 10 | 1 |
+| **8** | **FC Bling Bling** | **0** |
 
 ### Pelit
 
-* *ma 12.5.2025*:\
-  Vanha Kööri – FC Bling Bling **7–1** 
-* *ke 21.5.2025*:\
-  FC Bling Bling – FC WNBa stars **1–5** 
-* *ti 27.5.2025*:\
-  FC Pussycats – FC Bling Bling **2–0** 
-* *to 5.6.2025*:\
-  FC Bling Bling – FC Haka j./Naiset **0–7** 
-* *to 26.6.2025*:\
-  FC Bling Bling – Vanha Kööri **0–15** 
-* *ke 2.7.2025*:\
-  FC WNBa stars – FC Bling Bling **1–1** 
-* *ma 28.7.2025*:\
-  FC Bling Bling – FC Pussycats **0–2** 
-* *to 7.8.2025*:\
-  FC Haka j./Naiset – FC Bling Bling **13–0** 
-* *ti 19.8.2025*:\
-  Vanha Kööri – FC Bling Bling **21–0** 
-* *ke 27.8.2025*:\
-  FC Bling Bling – FC WNBa stars **1–0** 
-* *ma 1.9.2025*:\
-  FC Pussycats – FC Bling Bling **1–2** 
-* *ti 16.9.2025*:\
-  FC Bling Bling – FC Haka j./Naiset **1–8** 
+* *ma 4.5.2026*:\
+  Two Left Legs – FC Bling Bling **2–1** 
+* *ti 12.5.2026*:\
+  FC Bling Bling – Pipara **0–11** 
+* *ti 19.5.2026*:\
+  FC WNBa stars – FC Bling Bling **1–0** 
+* *ti 2.6.2026*:\
+  FC Bling Bling – FC Taktinen Paniikki **0–4** 
+* *to 11.6.2026*:\
+  FC Satakunnankatumus 10 – FC Bling Bling  
+* *pe 26.6.2026*:\
+  FC Bling Bling – FC Pussycats  
+* *ke 1.7.2026*:\
+  FC Kappelin Pimut – FC Bling Bling  
+* *to 9.7.2026*:\
+  FC Bling Bling – Two Left Legs  
+* *ma 27.7.2026*:\
+  Pipara – FC Bling Bling  
+* *to 13.8.2026*:\
+  FC Bling Bling – FC WNBa stars  
+* *ke 19.8.2026*:\
+  FC Taktinen Paniikki – FC Bling Bling  
+* *ma 31.8.2026*:\
+  FC Bling Bling – FC Satakunnankatumus 10  
+* *ma 14.9.2026*:\
+  FC Pussycats – FC Bling Bling  
+* *to 24.9.2026*:\
+  FC Bling Bling – FC Kappelin Pimut  
 
 ### Maalit
 
 
 | Pelaaja | Maalit |
 |---| ---|
-|Emmaleena K. | 2 |
-|Annika A. | 1 |
-|Emmi-Emilia L. | 1 |
-|Emmi-Emilia Å. | 1 |
-|Kati-Aurora K. | 1 |
-|Maiju A. | 1 |
+|Maarit A. | 1 |
