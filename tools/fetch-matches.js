@@ -5,7 +5,7 @@ const exec = require('child_process').exec;
 const fetchUrl = async (url) =>
   new Promise((resolve, reject) => {
     // TODO: node client is blocked by CF
-    const command = `curl '${url}' -H 'accept: json/df8e84j9xtdz269euy3h' -H 'user-agent: script'`
+    const command = `curl '${url}' -H 'Referer: https://tulospalvelu.palloliitto.fi/' -H 'accept: json/4h7dznqdxwtp3hsfdyf5r793uahfxy7x' -H 'user-agent: script'`
     exec(command, { maxBuffer: 1024 * 1024 * 5 }, (error, stdout, stderr) => {
       //console.log(stderr)
       if (error) {
