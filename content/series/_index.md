@@ -15,10 +15,10 @@ layout: single
 |---|---------| ---|
 |1 | Pipara | 12 |
 |2 | FC Taktinen Paniikki | 12 |
-|3 | Two Left Legs | 9 |
+|3 | Two Left Legs | 12 |
 |4 | FC WNBa stars | 7 |
-|5 | FC Kappelin Pimut | 3 |
-|6 | FC Pussycats | 2 |
+|5 | FC Pussycats | 5 |
+|6 | FC Kappelin Pimut | 3 |
 |7 | FC Satakunnankatumus 10 | 1 |
 | **8** | **FC Bling Bling** | **0** |
 
