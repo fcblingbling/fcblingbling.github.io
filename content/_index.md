@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* to 11.6.2026 klo 18:50 *Riihitien kenttä*: **FC Satakunnankatumus 10 vs FC Bling Bling**
 * ma 15.6.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 * ti 16.6.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
+* ma 22.6.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 
 
 
