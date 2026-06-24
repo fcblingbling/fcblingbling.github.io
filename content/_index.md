@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 23.6.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 * pe 26.6.2026 klo 17:50 *Kiovanpuiston kenttä*: **FC Bling Bling vs FC Pussycats**
 * ma 29.6.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
+* ti 30.6.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 
 
 
