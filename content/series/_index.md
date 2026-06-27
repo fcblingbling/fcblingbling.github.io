@@ -13,8 +13,8 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Pipara | 15 |
-|2 | Two Left Legs | 12 |
+|1 | Pipara | 18 |
+|2 | Two Left Legs | 15 |
 |3 | FC Taktinen Paniikki | 12 |
 |4 | FC WNBa stars | 7 |
 |5 | FC Pussycats | 5 |
