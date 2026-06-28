@@ -15,9 +15,9 @@ layout: single
 |---|---------| ---|
 |1 | Pipara | 18 |
 |2 | Two Left Legs | 15 |
-|3 | FC Taktinen Paniikki | 12 |
-|4 | FC WNBa stars | 7 |
-|5 | FC Pussycats | 5 |
+|3 | FC Taktinen Paniikki | 15 |
+|4 | FC Pussycats | 8 |
+|5 | FC WNBa stars | 7 |
 | **6** | **FC Bling Bling** | **3** |
 |7 | FC Kappelin Pimut | 3 |
 |8 | FC Satakunnankatumus 10 | 1 |
@@ -35,7 +35,7 @@ layout: single
 * *to 11.6.2026*:\
   FC Satakunnankatumus 10 – FC Bling Bling **2–3** 
 * *pe 26.6.2026*:\
-  FC Bling Bling – FC Pussycats  
+  FC Bling Bling – FC Pussycats **0–2** 
 * *ke 1.7.2026*:\
   FC Kappelin Pimut – FC Bling Bling  
 * *to 9.7.2026*:\
