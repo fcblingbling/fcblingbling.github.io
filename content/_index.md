@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ke 1.7.2026 klo 19:40 *Riihitien kenttä*: **FC Kappelin Pimut vs FC Bling Bling**
 * ma 6.7.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 * ti 7.7.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
+* to 9.7.2026 klo 19:30 *Kiovanpuiston kenttä*: **FC Bling Bling vs Two Left Legs**
 
 
 
