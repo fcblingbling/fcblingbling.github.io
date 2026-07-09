@@ -15,7 +15,7 @@ layout: single
 |---|---------| ---|
 |1 | Pipara | 21 |
 |2 | Two Left Legs | 18 |
-|3 | FC Taktinen Paniikki | 15 |
+|3 | FC Taktinen Paniikki | 18 |
 |4 | FC WNBa stars | 10 |
 |5 | FC Pussycats | 8 |
 |6 | FC Kappelin Pimut | 6 |
