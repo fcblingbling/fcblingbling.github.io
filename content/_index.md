@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 13.7.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 * ti 14.7.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 * ma 20.7.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
+* ti 21.7.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 
 
 
