@@ -13,12 +13,12 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Pipara | 24 |
+|1 | Pipara | 27 |
 |2 | Two Left Legs | 21 |
-|3 | FC Taktinen Paniikki | 18 |
-|4 | FC Pussycats | 11 |
+|3 | FC Taktinen Paniikki | 19 |
+|4 | FC Pussycats | 12 |
 |5 | FC WNBa stars | 10 |
-|6 | FC Kappelin Pimut | 6 |
+|6 | FC Kappelin Pimut | 9 |
 | **7** | **FC Bling Bling** | **3** |
 |8 | FC Satakunnankatumus 10 | 1 |
 
@@ -41,7 +41,7 @@ layout: single
 * *to 9.7.2026*:\
   FC Bling Bling – Two Left Legs **0–8** 
 * *ma 27.7.2026*:\
-  Pipara – FC Bling Bling  
+  Pipara – FC Bling Bling **6–3** 
 * *to 13.8.2026*:\
   FC Bling Bling – FC WNBa stars  
 * *ke 19.8.2026*:\
