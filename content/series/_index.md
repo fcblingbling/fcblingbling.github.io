@@ -14,7 +14,7 @@ layout: single
 | # | Joukkue | Pisteet |
 |---|---------| ---|
 |1 | Pipara | 27 |
-|2 | Two Left Legs | 21 |
+|2 | Two Left Legs | 24 |
 |3 | FC Taktinen Paniikki | 19 |
 |4 | FC Pussycats | 12 |
 |5 | FC WNBa stars | 10 |
@@ -41,7 +41,7 @@ layout: single
 * *to 9.7.2026*:\
   FC Bling Bling – Two Left Legs **0–8** 
 * *ma 27.7.2026*:\
-  Pipara – FC Bling Bling **6–3** 
+  Pipara – FC Bling Bling **7–3** 
 * *to 13.8.2026*:\
   FC Bling Bling – FC WNBa stars  
 * *ke 19.8.2026*:\
@@ -58,8 +58,9 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
+|Emmi-Emilia Å. | 2 |
+|Karin P. | 2 |
 |(FC Satakunnankatumus 10) | 1 |
-|Emmi-Emilia Å. | 1 |
-|Karin P. | 1 |
 |Leeni R. | 1 |
 |Maarit A. | 1 |
+|Maiju A. | 1 |
