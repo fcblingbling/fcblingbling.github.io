@@ -19,7 +19,7 @@ layout: single
 |4 | FC Pussycats | 12 |
 |5 | FC WNBa stars | 10 |
 |6 | FC Kappelin Pimut | 9 |
-| **7** | **FC Bling Bling** | **3** |
+| **7** | **FC Bling Bling** | **6** |
 |8 | FC Satakunnankatumus 10 | 1 |
 
 ### Pelit
@@ -43,7 +43,7 @@ layout: single
 * *ma 27.7.2026*:\
   Pipara – FC Bling Bling **7–3** 
 * *to 13.8.2026*:\
-  FC Bling Bling – FC WNBa stars  
+  FC Bling Bling – FC WNBa stars **3–0** 
 * *ke 19.8.2026*:\
   FC Taktinen Paniikki – FC Bling Bling  
 * *ma 31.8.2026*:\
