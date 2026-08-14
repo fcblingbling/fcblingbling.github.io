@@ -14,13 +14,13 @@ layout: single
 | # | Joukkue | Pisteet |
 |---|---------| ---|
 |1 | Pipara | 27 |
-|2 | Two Left Legs | 24 |
-|3 | FC Taktinen Paniikki | 19 |
+|2 | Two Left Legs | 27 |
+|3 | FC Taktinen Paniikki | 22 |
 |4 | FC Pussycats | 12 |
 |5 | FC WNBa stars | 10 |
 |6 | FC Kappelin Pimut | 9 |
 | **7** | **FC Bling Bling** | **6** |
-|8 | FC Satakunnankatumus 10 | 1 |
+|8 | FC Satakunnankatumus 10 | 4 |
 
 ### Pelit
 
