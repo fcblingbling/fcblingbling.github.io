@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 17.8.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 * ti 18.8.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 * ke 19.8.2026 klo 18:00 *Riihitien kenttä*: **FC Taktinen Paniikki vs FC Bling Bling**
+* ma 24.8.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 
 
 
