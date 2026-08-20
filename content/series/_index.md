@@ -15,12 +15,12 @@ layout: single
 |---|---------| ---|
 |1 | Pipara | 27 |
 |2 | Two Left Legs | 27 |
-|3 | FC Taktinen Paniikki | 22 |
+|3 | FC Taktinen Paniikki | 25 |
 |4 | FC Pussycats | 12 |
 |5 | FC WNBa stars | 10 |
 |6 | FC Kappelin Pimut | 9 |
-| **7** | **FC Bling Bling** | **6** |
-|8 | FC Satakunnankatumus 10 | 4 |
+|7 | FC Satakunnankatumus 10 | 7 |
+| **8** | **FC Bling Bling** | **6** |
 
 ### Pelit
 
@@ -45,7 +45,7 @@ layout: single
 * *to 13.8.2026*:\
   FC Bling Bling – FC WNBa stars **3–0** 
 * *ke 19.8.2026*:\
-  FC Taktinen Paniikki – FC Bling Bling  
+  FC Taktinen Paniikki – FC Bling Bling **9–1** 
 * *ma 31.8.2026*:\
   FC Bling Bling – FC Satakunnankatumus 10  
 * *ma 14.9.2026*:\
@@ -58,8 +58,8 @@ layout: single
 
 | Pelaaja | Maalit |
 |---| ---|
+|Karin P. | 3 |
 |Emmi-Emilia Å. | 2 |
-|Karin P. | 2 |
 |(FC Satakunnankatumus 10) | 1 |
 |Leeni R. | 1 |
 |Maarit A. | 1 |
