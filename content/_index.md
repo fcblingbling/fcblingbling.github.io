@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ti 25.8.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 * to 27.8.2026 klo 19:00 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri 19-20**
 * su 30.8.2026 klo 18:00 *Lamminpään koulu*: **Säbä 18-19**
+* ma 31.8.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 
 
 
