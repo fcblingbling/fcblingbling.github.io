@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* su 30.8.2026 klo 18:00 *Lamminpään koulu*: **Säbä 18-19**
 * ma 31.8.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
 * ma 31.8.2026 klo 17:00 *Kiovanpuiston kenttä*: **FC Bling Bling vs FC Satakunnankatumus 10**
+* ma 31.8.2026 klo 17:30 *Hyhkyn koulutalo*: **Futsal 17.30-18.30**
 
 
 
