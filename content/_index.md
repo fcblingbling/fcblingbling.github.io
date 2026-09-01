@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 31.8.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
-* ma 31.8.2026 klo 17:00 *Kiovanpuiston kenttä*: **FC Bling Bling vs FC Satakunnankatumus 10**
-* ma 31.8.2026 klo 17:30 *Hyhkyn koulutalo*: **Futsal 17.30-18.30**
+* ti 1.9.2026 klo 17:30 *Tesoman koulutalo*: **Futsal 17.30-18.30**
+* ti 1.9.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
+* to 3.9.2026 klo 19:00 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri 19-20**
 
 
 
