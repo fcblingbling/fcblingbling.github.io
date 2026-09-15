@@ -20,7 +20,7 @@ layout: single
 |5 | FC Kappelin Pimut | 12 |
 |6 | FC WNBa stars | 10 |
 |7 | FC Satakunnankatumus 10 | 10 |
-| **8** | **FC Bling Bling** | **6** |
+| **8** | **FC Bling Bling** | **9** |
 
 ### Pelit
 
@@ -49,7 +49,7 @@ layout: single
 * *ma 31.8.2026*:\
   FC Bling Bling – FC Satakunnankatumus 10 **0–3** 
 * *ma 14.9.2026*:\
-  FC Pussycats – FC Bling Bling  
+  FC Pussycats – FC Bling Bling **0–2** 
 * *to 24.9.2026*:\
   FC Bling Bling – FC Kappelin Pimut  
 
@@ -60,7 +60,8 @@ layout: single
 |---| ---|
 |Karin P. | 3 |
 |Emmi-Emilia Å. | 2 |
+|Leeni R. | 2 |
 |(FC Satakunnankatumus 10) | 1 |
-|Leeni R. | 1 |
 |Maarit A. | 1 |
 |Maiju A. | 1 |
+|Reeta K. | 1 |

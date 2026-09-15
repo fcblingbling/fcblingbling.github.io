@@ -12,9 +12,9 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 
 ## Seuraavat tapahtumat
 
-* ma 14.9.2026 klo 17:00 *Viinikan nurmikenttä*: **Futisreenit 17-18**
-* ma 14.9.2026 klo 17:30 *Hyhkyn koulutalo*: **Futsal 17.30-18.30**
-* ma 14.9.2026 klo 20:30 *Lielahden liikuntapuisto tn*: **FC Pussycats vs FC Bling Bling**
+* ti 15.9.2026 klo 17:30 *Tesoman koulutalo*: **Futsal 17.30-18.30**
+* ti 15.9.2026 klo 18:45 *Viinikan nurmikenttä*: **Harkkamatsi Viinikan Mimmejä vastaan klo 18.45**
+* to 17.9.2026 klo 19:00 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri 19-20**
 
 
 
