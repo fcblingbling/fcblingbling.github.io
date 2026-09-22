@@ -13,8 +13,8 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
 ## Seuraavat tapahtumat
 
 * ti 22.9.2026 klo 17:30 *Tesoman koulutalo*: **Futsal 17.30-18.30**
-* ti 22.9.2026 klo 19:30 *Viinikan nurmikenttä*: **Futisreenit klo 19.30-21**
 * to 24.9.2026 klo 17:40 *Tapiolanpuiston kenttä*: **FC Bling Bling vs FC Kappelin Pimut**
+* to 24.9.2026 klo 19:00 *Tesoman palloiluhalli*: **Kehonhuolto/kuntopiiri 19-20**
 
 
 
