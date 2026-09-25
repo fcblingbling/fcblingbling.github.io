@@ -13,8 +13,8 @@ layout: single
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | Pipara | 36 |
-|2 | Two Left Legs | 36 |
+|1 | Pipara | 39 |
+|2 | Two Left Legs | 39 |
 |3 | FC Taktinen Paniikki | 28 |
 |4 | FC Pussycats | 12 |
 |5 | FC Kappelin Pimut | 12 |
