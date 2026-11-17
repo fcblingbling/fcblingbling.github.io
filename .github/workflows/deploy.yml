@@ -38,9 +38,11 @@ jobs:
       - name: Expose revision for deployment
         id: revision
         run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+  test:
+    uses: ./.github/workflows/test.yml
   deploy:
-    needs: fetch-facebook
-    if: ${{ !cancelled() && (needs.fetch-facebook.result == 'success' || needs.fetch-facebook.result == 'skipped') }}
+    needs: [fetch-facebook, test]
+    if: ${{ !cancelled() && needs.test.result == 'success' && (needs.fetch-facebook.result == 'success' || needs.fetch-facebook.result == 'skipped') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
