@@ -3,38 +3,62 @@ on:
   push:
     branches: main
   schedule:
-    - cron: "0 8 * * *" # Runs at 08:00
+    - cron: "0 5 * * *"
 permissions:
   contents: write
   pages: write
 jobs:
+  fetch-facebook:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    outputs:
+      sha: ${{ steps.revision.outputs.sha }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 1
+      - uses: lauravuo/fb-fetch-action@main
+        with:
+          start-year: 2014
+          page-id: ${{ secrets.FB_PAGE_ID }}
+          page-token: ${{ secrets.FB_PAGE_TOKEN }}
+          data-folder: "./tools/data/fb/"
+      - name: Commit fetched Facebook data
+        run: |
+          git add -A -- tools/data
+          if git diff --cached --quiet; then
+            echo "Facebook data is unchanged."
+          else
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git config user.name "github-actions[bot]"
+            git commit -m "chore(facebook): update fetched posts"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+      - name: Expose revision for deployment
+        id: revision
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
   deploy:
+    needs: fetch-facebook
+    if: ${{ !cancelled() && (needs.fetch-facebook.result == 'success' || needs.fetch-facebook.result == 'skipped') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
+          ref: ${{ needs.fetch-facebook.outputs.sha || github.sha }}
           submodules: recursive
           fetch-depth: 1
       - uses: ./.github/actions/deploy
         with:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  schedule-needed-deploy:
-    needs: deploy
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.PUSH_GITHUB_TOKEN }} # use token to trigger deployment
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "22.x"
-      - name: generate files
-        shell: bash
+      - name: Commit generated series data
         run: |
-          node ./tools/index.js
-      - name: commit changes to workflow
-        run: |
-          git config --global user.email "github-actions"
-          git config --global user.name "github-actions"
-          git add .github
-          (git commit -a -m "Schedule deployment." && git push) || echo "No changes to commit"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add -A -- content/series content/futsal
+          if git diff --cached --quiet; then
+            echo "Series data is unchanged."
+          else
+            git commit -m "chore(series): persist generated standings"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
