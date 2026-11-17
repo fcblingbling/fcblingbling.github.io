@@ -3,7 +3,6 @@ const http = require("https");
 
 const printMatches = require('./print-matches')
 const parseFeed = require("./parser/feed");
-const createLottery = require("./create-lottery");
 const createTournamentTeams = require("./create-tournament");
 const { createFolder } = require("./utils")
 
@@ -30,23 +29,12 @@ const parse = async () => {
   let i = 1;
   let count = 0;
   let text = ''
-  const eventURLs = []
-  const nextEventAlarm = { day: 0, hour: 0, minutes: 0 };
   while (count < 3 && i < lines.length) {
     const line = lines[i++]
     if (line.includes(',')) {
       const words = line.split(',')
       const date = new Date(`${words[1]}T${words[2]}:00.000Z`)
       if (date.getDate() > 0) {
-        if (count === 0) {
-          // TODO: clean up this ugly mess to handle time zone diff
-          const timeZoneDiff = new Date().toLocaleString('fi-FI', { timeZone: 'Europe/Helsinki', timeZoneName: 'short' }).split('+')[1];
-          const utcAlarmDate = new Date(date.getTime() - 30 * 1000 * 60)
-          const alarmDate = new Date(utcAlarmDate.toISOString().replace("Z", "+0" + timeZoneDiff + ":00"))
-          nextEventAlarm.day = alarmDate.getUTCDay()
-          nextEventAlarm.hour = alarmDate.getUTCHours()
-          nextEventAlarm.minutes = alarmDate.getUTCMinutes()
-        }
         count++
         const fmtDate = `${date.toLocaleString('fi-FI', { weekday: 'short' })} ${date.getUTCDate()}.${date.getUTCMonth() + 1}.${date.getUTCFullYear()} klo ${date.getUTCHours()}:${zeroPad(date.getUTCMinutes(), 2)}`
         const title = words[0].replace('FC Bling Bling: ', '')
@@ -54,19 +42,9 @@ const parse = async () => {
         const location = locationStr.includes(" - ") ? locationStr.split(" - ")[1] : locationStr
 
         text += `* ${fmtDate}${location ? ` *${location}*` : ''}: **${title}**\n`
-
-        const url = words[words.length - 1].replaceAll('"', '')
-        if (url.startsWith('https://fcblingbling.nimenhuuto.com/events')) {
-          eventURLs.push(url.split(' ')[0])
-        }
       }
     }
   }
-
-  const workflowContent = fs.readFileSync('tools/deploy.yml').toString();
-  const extraWorkflowContent = workflowContent.replaceAll(
-    "0 0 * * *", `${nextEventAlarm.minutes} ${nextEventAlarm.hour} * * ${nextEventAlarm.day}`)
-  fs.writeFileSync('.github/workflows/extra.yml', extraWorkflowContent)
 
   const eventsText = text
   text = `![Logo](/img/avatar-icon.png)\n\n`
@@ -146,8 +124,6 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
     seriesName: 'Tampereen harrastefutsal',
     shortName: 'futsal'
   }])
-
-  await createLottery(eventURLs)
 
   // if (!fs.existsSync('./content/unelma')) {
   //   createTournamentTeams();

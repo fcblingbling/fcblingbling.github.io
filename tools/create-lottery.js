@@ -1,5 +1,6 @@
 const fs = require("fs");
-const { createFolder, fetchUrl } = require("./utils")
+const crypto = require("crypto");
+const { fetchUrl } = require("./utils")
 
 module.exports = async (urls) => {
   const renderTeams = (event) => {
@@ -50,8 +51,13 @@ ${threeTeams[2].sort().map(item => `* ${item}`).join('\n')}
 
     return teams
   };
+  if (urls.length === 0) {
+    console.log("No upcoming event URLs; leaving the current lottery unchanged.")
+    return false
+  }
+
   const playerPages = await Promise.all(urls.map(async item => fetchUrl(item)))
-  const playerDetails = playerPages.map(item => {
+  const playerDetails = playerPages.map((item, index) => {
     const startIndex = item.indexOf('enroll_1')
     const endIndex = item.indexOf('enroll_2')
     const allPlayersData = item.substring(startIndex, endIndex)
@@ -71,35 +77,54 @@ ${threeTeams[2].sort().map(item => `* ${item}`).join('\n')}
     const whenEndIndex = item.indexOf('"', whenStartIndex)
     const parsedWhen = item.substring(whenStartIndex, whenEndIndex);
     return {
+      url: urls[index],
       players,
       title: item.substring(titleStartIndex, titleEndIndex).trim(),
       when: parsedWhen.startsWith('2') ? parsedWhen : new Date(new Date().getTime() + 7 * 24 * 60 * 60 * 1000).toISOString()
     }
   })
 
-  createFolder(`./content/lottery`)
-
-  const currentTime = new Date().toLocaleString('fi-FI', { timeZone: 'Europe/Helsinki' })
   const firstTime = new Date(playerDetails[0].when)
+  const relevantEvents = playerDetails.filter(
+    event => (new Date(event.when).getTime() - firstTime.getTime()) / (1000 * 60 * 60) < 24
+  )
+  const fingerprint = crypto.createHash("sha256").update(JSON.stringify(
+    relevantEvents.map(event => ({
+      url: event.url,
+      title: event.title,
+      when: event.when,
+      players: event.players
+        .map(player => player.normalize("NFC").trim().replace(/\s+/g, " ").toLocaleLowerCase("fi-FI"))
+        .filter(Boolean)
+        .sort()
+    }))
+  )).digest("hex")
+  const outputPath = "./content/lottery/index.md"
+  if (fs.existsSync(outputPath)) {
+    const existingText = fs.readFileSync(outputPath, "utf8")
+    const existingFingerprint = existingText.match(/^fingerprint:\s*([a-f0-9]{64})\s*$/m)?.[1]
+    if (existingFingerprint === fingerprint) {
+      console.log("Lottery event and participants are unchanged.")
+      return false
+    }
+  }
 
-
+  fs.mkdirSync("./content/lottery", { recursive: true })
+  const currentTime = new Date().toLocaleString('fi-FI', { timeZone: 'Europe/Helsinki' })
   let text = `---
 title: Marikan arvontakone
 comments: false
 aliases:
   - arvontakone
+fingerprint: ${fingerprint}
 ---
 Arvonta suoritettu ${currentTime}
 
-${playerDetails.filter(
-    event => (new Date(event.when).getTime() - firstTime.getTime()) / 1000 * 60 * 60 < 24
-  ).map(event => event.title === '' ?
+${relevantEvents.map(event => event.title === '' ?
     '## Tapahtuman tiedot ei saatavilla\n\n' :
     renderTeams(event)).join('***\n')}
 `
 
-  // https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule
-  // dynamically set cron schedule before each event
-
-  fs.writeFileSync(`./content/lottery/index.md`, text)
+  fs.writeFileSync(outputPath, text)
+  return true
 }

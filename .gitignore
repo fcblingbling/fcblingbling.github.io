@@ -3,7 +3,8 @@ events.csv
 public/
 content/feed
 content/post
-content/lottery
+content/lottery/*
+!content/lottery/index.md
 content/unelma
 
 .envrc
