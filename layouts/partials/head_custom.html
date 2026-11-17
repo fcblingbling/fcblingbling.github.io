@@ -21,6 +21,53 @@ Or you can delete these file if you don't need it.
   #tiimi-1-orkut, #tiimi-1-orkut-1, #tiimi-1-orkut-2 {
     color: #FF5F1F;
   }
+  .lottery-footer-link a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #a0a0a0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    transition: border-color .2s ease, transform .2s ease;
+  }
+  .lottery-footer-link img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  .lottery-footer-link a:hover img,
+  .lottery-footer-link a:focus-visible img {
+    transform: scale(1.03);
+  }
+  .lottery-footer-link a:hover,
+  .lottery-footer-link a:focus-visible {
+    border-color: #808080;
+  }
+  .lottery-page-icon {
+    display: block;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 24px;
+    border: 3px solid #a0a0a0;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+  @media (prefers-color-scheme: dark) {
+    .lottery-footer-link a {
+      border-color: #bbb;
+    }
+    .lottery-footer-link a:hover,
+    .lottery-footer-link a:focus-visible {
+      border-color: #fff;
+    }
+    .lottery-page-icon {
+      border-color: #bbb;
+    }
+  }
   #tiimi-2-sinkut, #tiimi-2-sinkut-1, #tiimi-2-sinkut-2 {
     color: lightblue;
   }
