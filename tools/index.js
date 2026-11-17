@@ -3,7 +3,6 @@ const http = require("https");
 
 const printMatches = require('./print-matches')
 const parseFeed = require("./parser/feed");
-const createLottery = require("./create-lottery");
 const createTournamentTeams = require("./create-tournament");
 const { createFolder } = require("./utils")
 
@@ -30,7 +29,6 @@ const parse = async () => {
   let i = 1;
   let count = 0;
   let text = ''
-  const eventURLs = []
   while (count < 3 && i < lines.length) {
     const line = lines[i++]
     if (line.includes(',')) {
@@ -44,11 +42,6 @@ const parse = async () => {
         const location = locationStr.includes(" - ") ? locationStr.split(" - ")[1] : locationStr
 
         text += `* ${fmtDate}${location ? ` *${location}*` : ''}: **${title}**\n`
-
-        const url = words[words.length - 1].replaceAll('"', '')
-        if (url.startsWith('https://fcblingbling.nimenhuuto.com/events')) {
-          eventURLs.push(url.split(' ')[0])
-        }
       }
     }
   }
@@ -131,8 +124,6 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
     seriesName: 'Tampereen harrastefutsal',
     shortName: 'futsal'
   }])
-
-  await createLottery(eventURLs)
 
   // if (!fs.existsSync('./content/unelma')) {
   //   createTournamentTeams();
