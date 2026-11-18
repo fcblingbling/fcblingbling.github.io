@@ -3,51 +3,41 @@ title: Marikan arvontakone
 comments: false
 aliases:
   - arvontakone
-fingerprint: 967c38155cbd2dca72cbfbfa10b18adba8aca31732ff0cde60aa27d8e1704d7b
+fingerprint: 07dacea3be069124b3323eb430ace68eb58a1dbe1516e29f7d3ce8e1d6febb6c
 ---
-Arvonta suoritettu 17.11.2026 klo 20.19.41
+Arvonta suoritettu 18.11.2026 klo 3.54.27
+
+## Tapahtuman tiedot ei saatavilla
+
+***
 
 
-
-## 17.11. Futsal 17.30-18.30
+## 22.11. Säbä 18-19
 
 ### Kahden tiimin jaot
 
 #### Tiimi 1: Orkut
-* Karin P
-* Laura V
-* Marika K
-* Marika M
-* Tanja V
-* Vilhelmiina P
+* Juulia
+* Reeta K
 
 #### Tiimi 2: Sinkut
-* Julia
-* Katriina K
-* Outi P
-* Reeta K
-* Silva V
-* Tuija S
+* Marika K
 
 
-### Kolmen tiimin jaot
+***
+
+
+## 23.11. Futsal 17.30-18.30
+
+### Kahden tiimin jaot
 
 #### Tiimi 1: Orkut
-* Karin P
-* Laura V
-* Silva V
-* Tuija S
+* Amanda A
+* Irma N
 
 #### Tiimi 2: Sinkut
+* Maarit A
 * Marika M
-* Outi P
-* Reeta K
-* Tanja V
 
-#### Tiimi 3: Keltsit
-* Julia
-* Katriina K
-* Marika K
-* Vilhelmiina P
 
 
