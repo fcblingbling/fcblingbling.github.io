@@ -3,9 +3,9 @@ title: Marikan arvontakone
 comments: false
 aliases:
   - arvontakone
-fingerprint: 520291f048f6d7bc221da30796ec4721bd1cc699c7282fbef12d68bc7a196cab
+fingerprint: 87e1edf572e10292bc35904b0946115cf179b772195ccc5e72763f398de67357
 ---
-Arvonta suoritettu 21.11.2026 klo 17.41.12
+Arvonta suoritettu 21.11.2026 klo 23.14.43
 
 
 
@@ -14,10 +14,11 @@ Arvonta suoritettu 21.11.2026 klo 17.41.12
 ### Kahden tiimin jaot
 
 #### Tiimi 1: Orkut
-* Karin P
+* Päivi K
 * Reeta K
 
 #### Tiimi 2: Sinkut
+* Karin P
 * Laura V
 
 
