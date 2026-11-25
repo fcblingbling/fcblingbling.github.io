@@ -3,9 +3,9 @@ title: Marikan arvontakone
 comments: false
 aliases:
   - arvontakone
-fingerprint: 39ad9f7690a5c59cc4e487412bdaf87d89699395b61415c55835b7ee23176b21
+fingerprint: 00651476f6b0f4aa4134a3ec7e8091fc8c0c59cdbb7cb584f428bf029f507ddb
 ---
-Arvonta suoritettu 25.11.2026 klo 5.12.16
+Arvonta suoritettu 25.11.2026 klo 15.39.16
 
 ## Tapahtuman tiedot ei saatavilla
 
