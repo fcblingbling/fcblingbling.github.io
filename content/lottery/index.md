@@ -3,39 +3,27 @@ title: Marikan arvontakone
 comments: false
 aliases:
   - arvontakone
-fingerprint: 150195136338d4c4249a3b957291cd4f256c54b50bba44b241bb6988410cfd58
+fingerprint: 39ad9f7690a5c59cc4e487412bdaf87d89699395b61415c55835b7ee23176b21
 ---
-Arvonta suoritettu 24.11.2026 klo 21.08.13
+Arvonta suoritettu 25.11.2026 klo 5.12.16
+
+## Tapahtuman tiedot ei saatavilla
+
+***
+## Tapahtuman tiedot ei saatavilla
+
+***
 
 
-
-## 24.11. Futsal 17.30-18.30
+## 29.11. Säbä 18-19
 
 ### Kahden tiimin jaot
 
 #### Tiimi 1: Orkut
-* Jenna
-* Katriina K
-* Tanja V
+* Juulia
 
 #### Tiimi 2: Sinkut
-* Emmi Å
-* Reeta K
-* Tuija S
 
 
-### Kolmen tiimin jaot
-
-#### Tiimi 1: Orkut
-* Reeta K
-* Tanja V
-
-#### Tiimi 2: Sinkut
-* Jenna
-* Katriina K
-
-#### Tiimi 3: Keltsit
-* Emmi Å
-* Tuija S
 
 
