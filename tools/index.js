@@ -100,6 +100,14 @@ Seuraa meitä [Facebookissa](https://www.facebook.com/fcblingbling) tai [Instagr
   }])
   await printMatches('Futsal', [{
     latest: true,
+    active: true,
+    competitionId: 'lanfshl2627',
+    categoryId: 'FNH1',
+    season: '2026-27',
+    seriesName: 'Tampereen harrastefutsal',
+    shortName: 'futsal'
+  }, {
+    latest: false,
     active: false,
     competitionId: 'lanfshl2526',
     categoryId: 'FNH1',

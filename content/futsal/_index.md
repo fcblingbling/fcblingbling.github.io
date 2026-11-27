@@ -4,56 +4,23 @@ comments: false
 layout: single
 ---
 
-2025-26 | [2024-25](/futsal/2024-25) | [2023-24](/futsal/2023-24)
+2026-27 | [2025-26](/futsal/2025-26) | [2024-25](/futsal/2024-25) | [2023-24](/futsal/2023-24)
 
 
- FC Bling Bling osallistuu kaudella 2025-26 palloliiton [Tampereen harrastefutsal -sarjaan](https://tulospalvelu.palloliitto.fi/category/FNH1!lanfshl2526/tables).
+ FC Bling Bling osallistuu kaudella 2026-27 palloliiton [Tampereen harrastefutsal -sarjaan](https://tulospalvelu.palloliitto.fi/category/FNH1!lanfshl2627/group/4/).
 
 
 ### Taulukko
 | # | Joukkue | Pisteet |
 |---|---------| ---|
-|1 | FC Päätyyn asti | 32 |
-|2 | Ilves/Pohjoistuuli | 26 |
-|3 | FC Tesma | 22 |
-|4 | FC Fun | 15 |
-|5 | YIlves Naiset Harraste | 13 |
-| **6** | **FC Bling Bling** | **7** |
-|7 | FC Pussycats | 5 |
+|1 | Apassit | 0 |
+| **2** | **FC Bling Bling** | **0** |
+|3 | FC Jatkoaika | 0 |
+|4 | FC Pussycats | 0 |
+|5 | FC Tesma | 0 |
+|6 | Fc Fun | 0 |
+|7 | Roiske Ladies | 0 |
+|8 | YIlves Naiset Harraste | 0 |
 
 ### Pelit
-
-* *su 30.11.2025*:\
-  FC Bling Bling – FC Pussycats **1–0** 
-* *su 30.11.2025*:\
-  FC Päätyyn asti – FC Bling Bling **5–0** 
-* *su 14.12.2025*:\
-  FC Tesma – FC Bling Bling **2–1** 
-* *su 14.12.2025*:\
-  FC Bling Bling – Ilves/Pohjoistuuli **2–1** 
-* *la 3.1.2026*:\
-  FC Bling Bling – FC Fun **0–1** 
-* *la 3.1.2026*:\
-  YIlves Naiset Harraste – FC Bling Bling **2–0** 
-* *su 18.1.2026*:\
-  FC Bling Bling – FC Päätyyn asti **0–9** 
-* *su 18.1.2026*:\
-  FC Pussycats – FC Bling Bling **1–1** 
-* *la 7.2.2026*:\
-  FC Bling Bling – FC Tesma **0–2** 
-* *la 7.2.2026*:\
-  Ilves/Pohjoistuuli – FC Bling Bling **2–1** 
-* *su 8.3.2026*:\
-  FC Fun – FC Bling Bling **3–2** 
-* *su 8.3.2026*:\
-  FC Bling Bling – YIlves Naiset Harraste **1–2** 
-
-### Maalit
-
-
-| Pelaaja | Maalit |
-|---| ---|
-|Reeta K. | 5 |
-|Outi P. | 2 |
-|Amanda A. | 1 |
-|Maiju A. | 1 |
+Kautta ei ole vielä pelattu.
