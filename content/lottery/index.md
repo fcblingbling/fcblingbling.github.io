@@ -3,13 +3,10 @@ title: Marikan arvontakone
 comments: false
 aliases:
   - arvontakone
-fingerprint: d53415677e2afe7ca603c92d754d984f5454104e1a98d064b4dfe6eff99a1f5f
+fingerprint: 6c6ada36dd6a1036510927c9e2cbda8d0388827c044b9bf4643b0ce7dbedf752
 ---
-Arvonta suoritettu 26.11.2026 klo 19.55.03
+Arvonta suoritettu 27.11.2026 klo 4.28.28
 
-## Tapahtuman tiedot ei saatavilla
-
-***
 ## Tapahtuman tiedot ei saatavilla
 
 ***
@@ -20,10 +17,27 @@ Arvonta suoritettu 26.11.2026 klo 19.55.03
 ### Kahden tiimin jaot
 
 #### Tiimi 1: Orkut
-* Juulia
+* Päivi K
 
 #### Tiimi 2: Sinkut
-* Päivi K
+* Juulia
+
+
+***
+
+
+## 30.11. Futsal 17.30-18.30
+
+### Kahden tiimin jaot
+
+#### Tiimi 1: Orkut
+* Irma N
+* Juulia
+* Tuija S
+
+#### Tiimi 2: Sinkut
+* Laura V
+* Marika M
 
 
 
